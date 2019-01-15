@@ -1,7 +1,7 @@
 Chiron Sans HK (昭源黑體)
 ====================
 
-Chiron Sans HK is a (Source Han Sans)[https://github.com/adobe-fonts/source-han-sans] derived typeface for Hong Kong users.
+Chiron Sans HK is a [Source Han Sans](https://github.com/adobe-fonts/source-han-sans) derived typeface for Hong Kong users.
 
 ## License
 
