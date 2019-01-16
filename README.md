@@ -7,7 +7,7 @@ In version 2.000, Source Han Sans added a second Traditional Chinese flavor adhe
 
 The glyphs depicted in the document are of no doubt more suitable for Hong Kong (when compared against Taiwan’s orthography, reflected in the *Standard Typefaces for Chinese Characters* or *國字標準字體* documents). That said, its general principle of adopting the stroke types of written form (Kai Style 楷書) for the printed form (usually represented by Song Style 宋體) resulted in some odd-looking character shapes being introduced to typefaces generally used for printing.
 
-Based on the Traditional Chinese (Hong Kong) variant of Source Han Sans, **Chiron Sans HK** took references from successful commercial Traditional Chinese font products (widely used in printed materials in Hong Kong) to provide an orthographic variant which is considered more generally acceptable by the public.
+Based on the Traditional Chinese (Hong Kong) variant of Source Han Sans, **Chiron Sans HK** took references from successful commercial Traditional Chinese font products (widely used in printed materials in Hong Kong) to provide an orthographic variant which Hong Kong people are generally more familiar with.
 
 For more information, please refer to the [Chinese README.pdf](README.pdf) document, which itself is mainly typesetted in Chiron Sans HK.
 
