@@ -13,7 +13,7 @@ For more information, please refer to the [Chinese README.pdf](README.pdf) docum
 
 ## Download
 
-Installable font resources can be found on the [Release](https://github.com/tamcy/chiron-sans-hk/releases) page.
+Installable font resources can be found under the [build](build/) directory. Visit the [Release](https://github.com/tamcy/chiron-sans-hk/releases) page to download all fonts in a single compressed file (in .zip or .tar.gz).
 
 ## License
 
