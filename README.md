@@ -1,3 +1,5 @@
+![Font intro](doc/poster.png?raw=true "About this font, in Chinese")
+
 Chiron Sans HK (昭源黑體)
 =========================
 
