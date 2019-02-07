@@ -1,4 +1,4 @@
-v2.002
+v2.002 (2019/2/7)
 ==========
 - A number of glyphs were inadvertently removed due to a bug in the non-local glyphs removal process. This is now fixed. 
 - Fixed abnormal spacing in certain modified glyphs.
