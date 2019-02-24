@@ -46,12 +46,14 @@ For usage example, please check the HTML files named after each font weight whic
 
 `webfont` 目錄內的是網頁字型 **Chiron Sans HK WS** 的預覽版本，以 `WOFF2` 格式封裝。
 
-網頁字型屬 OTF 版本的子集 (subset)，收錄 14,584 個字元，覆蓋範圍限於 Big5 及 HKSCS 的常用字（由於目前跟從 Google Font 製作子集，某些字元會超出此範圍，見下）。
+網頁字型收錄 20,105 個字元，包含整個 Big5/HKSCS 字集。
 
-為改善效能，字型採用了 Unicode-range subsetting 技術，將每個字重的單一字型檔拆分成超過 100 個細小檔案（絕大多數檔案小於 50KB），並在 CSS 指明該檔案所涵蓋的字碼。瀏覽器只會在網頁有用到該字碼時，才會載入相關的字型檔。這樣做的好處是大大減低須下載字型檔案的大小。
+為改善效能，字型採用了 Unicode-range subsetting 技術，將每個字重的單一字型檔拆分成超過 100 個細小檔案（大多數檔案小於 50KB，非常用字子集小於 150KB），並在 CSS 指明該檔案所涵蓋的字碼。瀏覽器只會在網頁有用到該字碼時，才會載入相關的字型檔。這樣做的好處是大大減低須下載字型檔案的大小。收字方式如下：
 
-現時 Subsetting 是依照 Google Fonts 服務中 [Noto Sans TC](https://fonts.google.com/specimen/Noto+Sans+TC) 的拆分方式，再補上香港常用字。Google Fonts 的 Subsetting 方式會包含一些不在 Big5/HKSCS 的簡化字，暫不作處理。
+1. 先以 Google Fonts 服務中 [Noto Sans TC](https://fonts.google.com/specimen/Noto+Sans+TC) 的拆分方式為基礎。目前 Google Fonts 在日、韓兩種語言利用了 machine learning 產生 subset，務求在最小下載檔案數之下得到最多的常用字元。雖然未知繁體中文是否也是如此，但最終應該也會用上，所以決定先跟隨 Google Fonts 的 subsetting 方法。不過，Google Fonts 的繁體子集會包含一些不在 Big5/HKSCS 的簡化字，處理時會予以過濾。
+2. Google Fonts 的子集缺少很多香港常用字（例如此issue：https://github.com/google/fonts/issues/396）。本 webfont 會補上香港常用字符。
+3. 最後，補充 Big5/HKSCS 字集內的非常用字。既然已採用 unicode-range subsetting，加入這些字符對一般使用應無大影響。
 
-目錄內提供兩套 CSS 檔，分別是`[字重].css` 和 `[字重]_fb.css`。有 `_fb` 的版本會優先使用使用者系統中安裝的昭源黑體，Webfont 則作為 fallback 使用。假如使用者安裝了昭源黑體，就不會再下載 Webfont 檔。`[字重].css` 則只會使用 webfont 版本。
+目錄內提供兩組 CSS 檔，分別是`[字重].css` 和 `[字重]_fb.css`。有 `_fb` 的版本會優先使用使用者系統中安裝的昭源黑體，Webfont 則作為 fallback 使用。假如使用者安裝了昭源黑體，就不會再下載 Webfont 檔。`[字重].css` 則只會使用 webfont 版本。
 
-目錄內另包含以字重命名的 HTML 檔案，會印出所有 Webfont 覆蓋字元，作為使用示範。
+目錄內另包含以字重命名的 HTML 檔案，會印出所有 Webfont 覆蓋字元，作為應用示範。
