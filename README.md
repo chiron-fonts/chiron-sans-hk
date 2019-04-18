@@ -3,7 +3,7 @@
 Chiron Sans HK (昭源黑體)
 =========================
 
-（下載請前往 [Releases](https://github.com/tamcy/chiron-sans-hk/releases)頁。中文説明可參閲 [README.pdf](README.pdf) 檔，此 PDF 也是本字體的排印示範文件。）
+（下載請前往 [Releases](https://github.com/tamcy/chiron-sans-hk/releases) 頁。中文説明可參閲 [README.pdf](README.pdf) 檔。此 PDF 的中文字體以昭源黑體排印，英數字符則使用 [Aphrus Sans](https://github.com/tamcy/chiron-sans-hk-companion)，這款字體即是 Noto Sans，但調整成能與思源/本字體混排的字重）
 
 ## About
 

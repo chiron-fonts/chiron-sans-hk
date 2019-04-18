@@ -1,3 +1,9 @@
+v2.011 (2019/4/18)
+==========
+- **BC BREAK**: Removed numeric font weight naming because of issues on Windows.
+- 46 modified glyphs has been added.
+- The design of U+7B75 筵 has been updated.
+
 v2.010 (2019/4/11)
 ==========
 - Based on Source Han Sans 2.001.
