@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Aphrus Sans';
+    src: url('subset-AphrusSans-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aphrus Sans';
+    src: url('subset-AphrusSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aphrus Sans';
+    src: url('subset-AphrusSans-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aphrus Sans';
+    src: url('subset-AphrusSans-Heavy.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aphrus Sans';
+    src: url('subset-AphrusSans-Normal.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aphrus Sans';
+    src: url('subset-AphrusSans-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aphrus Sans';
+    src: url('subset-AphrusSans-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+

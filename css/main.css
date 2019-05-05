@@ -1,0 +1,64 @@
+body {
+    font-family: "Aphrus Sans", "Chiron Sans HK WS";
+    text-align: justify;
+    font-weight: 400;
+    line-height: 1.8;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+div.section-title {
+    margin: 3rem;
+    font-size: 3.5rem;
+    font-weight: 100;
+    line-height: 1.2;
+    text-align: center;
+}
+
+h1.display-4 {
+    font-weight: 800;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 3.2rem;
+}
+
+h2 {
+    font-weight: 500;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+header {
+    text-align: center;
+}
+
+header p {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+p, li {
+    font-size: 1.3rem;
+}
+
+table.char-sample td {
+    padding: 24px;
+    text-align: center;
+}
+
+table.char-sample td img {
+    width: 50%;
+}
+
+div.card img.side {
+    height: 225px;
+    width: 100%;
+}
