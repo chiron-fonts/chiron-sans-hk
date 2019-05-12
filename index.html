@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>昭源黑體説明文件</title>
+    <title>昭源黑體</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -23,35 +23,44 @@
 <body>
 
 <div class="position-relative overflow-hidden p-2 p-md-3 m-md-2 text-center bg-light">
-    <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4">昭源黑體 Chiron Sans HK</h1>
-        <br/>
-        <p class="lead">以「思源黑體 香港」為基礎，平衡標準字形和印刷體慣用筆形的黑體字型。</p>
+    <!--    <header style="position: absolute; right: -10%; top: -10%; font-size: 295pt; color: rgba(255,255,255,0.5); z-index: 5; line-height: 360px; font-weight: 200; -webkit-user-select:none; -moz-user-select:none; user-select:none;">-->
+    <!--        昭源<br/>黑體-->
+    <!--    </header>-->
+    <div class="col-md-5 p-lg-5 mx-auto my-5" style="z-index: 10; position: relative;">
+        <div>
+            <h1 class="display-3">昭源黑體
+                <br/>
+                <small>Chiron Sans HK</small>
+            </h1>
+            <br/>
+            <p class="lead">以「思源黑體 香港」為基礎，平衡標準字形和印刷體慣用筆形的黑體字型。</p>
 
-        <br/>
-        <p><a class="btn btn-outline-primary" href="https://github.com/tamcy/chiron-sans-hk/releases"
-              target="_blank">下載</a>
-            <a class="btn btn-outline-secondary" href="#changelog">更新紀錄</a></p>
+            <br/>
+            <p><a class="btn btn-outline-primary" href="https://github.com/tamcy/chiron-sans-hk/releases"
+                  target="_blank">下載</a>
+                <a class="btn btn-outline-secondary" href="#changelog">更新紀錄</a></p>
 
-        <br/>
-        <p class="lead text-muted">版本 2.011 (2019/4/11) ‧ 基於思源黑體 2.001 版組建</p>
+            <br/>
+            <p class="lead text-muted">版本 2.012 (2019/5/12) ‧ 基於思源黑體 2.001 版組建</p>
+        </div>
     </div>
 </div>
 
 <article class="container">
 
-    <div class="section-title text-secondary">字體特點</div>
+    <div class="section-title text-secondary">字體特色</div>
 
     <div class="card mb-4 shadow-sm">
         <div class="row">
-            <div class="col-md-6">
-                <div class="p-4">
+            <div class="col-lg-6">
+                <div class="pt-4 pl-4 pr-4">
                     <h4>採用本地筆形</h4>
 
                     <p>以「思源黑體香港」為基礎製作，多數字形符合最新公佈的《香港電腦漢字參考字形》。</p>
                 </div>
             </div>
-            <div class="py-2 col-md-6">
+            <!--            <div class="py-2 col-md-6 p-4">-->
+            <div class="py-md-4 py-lg-2 col-lg-6 px-4 px-lg-2 pl-5">
                 <img class="card-img-top side"
                      src="images/intro1.svg">
             </div>
@@ -60,14 +69,14 @@
 
     <div class="card mb-4 shadow-sm">
         <div class="row">
-            <div class="col-md-6">
-                <div class="p-4">
+            <div class="col-lg-6">
+                <div class="pt-4 pl-4 pr-4">
                     <h4>平衡印刷字體</h4>
 
                     <p>《香港電腦漢字參考字形》趨近楷書筆形。昭源黑體會考慮實際情況，將部份字樣改為黑體慣用筆形。</p>
                 </div>
             </div>
-            <div class="py-2 col-md-6">
+            <div class="py-md-4 py-lg-2 col-lg-6 px-4 px-lg-2 pl-5">
                 <img class="card-img-top side"
                      src="images/intro2.svg">
             </div>
@@ -76,15 +85,15 @@
 
     <div class="card mb-4 shadow-sm">
         <div class="row">
-            <div class="col-md-6">
-                <div class="p-4">
+            <div class="col-lg-6">
+                <div class="pt-4 pl-4 pr-4">
                     <h4>收字量大　風格一致</h4>
 
                     <p>繼承思源黑體<sup>*</sup>優點，除了完整覆蓋Big5及HKSCS字集、支援香港字外，並支援簡體中文、日文、韓文字集，遇到缺字的機會大減。</p>
                     <small class="text-muted">* Language-specific OpenType/CFF版本</small>
                 </div>
             </div>
-            <div class="py-2 col-md-6">
+            <div class="py-md-4 py-lg-2 col-lg-6 px-4 px-lg-3 pl-5">
                 <img class="card-img-top pr-2 side"
                      src="images/intro3.svg">
             </div>
@@ -92,7 +101,7 @@
     </div>
 
     <div class="card mb-4 shadow-sm">
-        <div class="p-4">
+        <div class="pt-4 pl-4 pr-4">
             <h4>七款字重　配搭方便</h4>
         </div>
         <div class="py-3">
@@ -235,8 +244,9 @@
     <p>
         　　修改的筆畫均取自原字體，以求風格一致。礙於人力所限，除常用字外，本字體製作時會盡量避免修改原字圖。這有兩個辦法：（一）忽略原版思源黑體視為屬於地區差異的細節（例如個別筆畫是否與其他筆畫接觸、𠂆部件兩筆轉折處有沒有裝飾）和（二）不常用的字保留不改或改用其他地區相近的字形。</p>
 
-    <p class="text-center"><a href="files/modified-glyphs.pdf" class="btn btn-outline-secondary">查看本字體修改過的字符 (PDF
-        格式)</a></p>
+    <p class="text-center"><a href="files/modified-glyphs.pdf" class="btn btn-outline-secondary" target="_blank">查看本字體修改過的字符
+        (PDF
+        格式, 4.2MB)</a></p>
 
     <h2>與原版思源黑體的分別 </h2>
 
@@ -256,8 +266,6 @@
     <p>　　昭源黑體以「思源黑體 香港」中的 Language-specific OpenType/CFF
         (OTF) 版為基礎製作。這個版本覆蓋 Unicode 超過 4,400 碼位，並可透過應用程式的 locl 功能（如支援）調用符合其他地區寫法的字圖，令每個字重的字圖總數達 65,535
         個。昭源黑體完整保留這個版本的碼位覆蓋，不過刪除了以 locl 功能調用其他地區字圖的功能。</p>
-
-    <p>　　另外，昭源黑體增收了約 400 個不屬思源黑體原有的字符，主要是為個人及熟人製作。</p>
 
     <h2>下載</h2>
 
@@ -285,6 +293,16 @@
 
     <h2 id="changelog">更新紀錄</h2>
 
+    <h3>2.012 版</h3>
+
+    <ul>
+        <li>
+            增加以下 90 字的修改字圖：<strong>㙎㜈㜜侫僽喴奼妗姎娏娵娷婈婓婤婼媌媙媥媶媷媺媻媿嫕嫚嫟嫫嫭嫹嬞嬥嬾孈峖𠴕揠揻攍敥椻楲氀灱灴炄炓炩烅烆烇烎烢煘熚犩瓾窶羰翣耬膢舕艛苂荌菨菼萩葌蒘蕠薅薠藀蘡蘮蘶蝛褗覣躽郾隇餒餤餧鰋鶈鷜</strong>。
+        </li>
+        <li>「名 (U+540D)」改用舊版台灣版的字形。</li>
+        <li>將「Suzhou Numeral Nine U+3029」的字形映射到「ㄆ (Bopomofo Letter P, U+3106)」。</li>
+    </ul>
+
     <h3>2.011 版</h3>
 
     <ul>
@@ -305,6 +323,7 @@
     </ul>
 
 </article>
+
 </body>
 
 </html>

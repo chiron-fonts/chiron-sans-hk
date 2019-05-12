@@ -15,8 +15,14 @@ div.section-title {
     text-align: center;
 }
 
-h1.display-4 {
+h1.display-4, h1.display-3 {
     font-weight: 800;
+    line-height: 100%;
+}
+
+h1 small {
+    font-weight: 700;
+    font-size: 70%;
 }
 
 h1 {
@@ -50,8 +56,20 @@ p, li {
 }
 
 table.char-sample td {
-    padding: 24px;
+    padding: 8px;
     text-align: center;
+}
+
+@media only screen and (min-width: 720px) {
+    table.char-sample td {
+        padding: 24px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    table.char-sample td {
+        padding: 36px;
+    }
 }
 
 table.char-sample td img {
@@ -61,4 +79,13 @@ table.char-sample td img {
 div.card img.side {
     height: 225px;
     width: 100%;
+}
+
+div.font-weight-demo {
+    background-color: #eee;
+}
+
+div.carousel-item .d-block {
+    font-size: 20vw;
+    text-align: center;
 }
