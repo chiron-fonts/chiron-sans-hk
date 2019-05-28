@@ -1,3 +1,7 @@
+v2.013 (2019/5/28)
+==========
+- Updated the design of 96 glyphs.
+
 v2.012 (2019/5/12)
 ==========
 - Updated the design of 90 glyphs.
