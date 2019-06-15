@@ -37,12 +37,18 @@
 
     <div class="mt-4 card p-4">
         <div id="preview-weight-selector" class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-light" data-weight="100">Extralight</button>
-            <button type="button" class="btn btn-light" data-weight="300">Light</button>
-            <button type="button" class="btn btn-primary" data-weight="400">Normal</button>
-            <button type="button" class="btn btn-light" data-weight="500">Medium</button>
-            <button type="button" class="btn btn-light" data-weight="700">Bold</button>
-            <button type="button" class="btn btn-light" data-weight="900">Heavy</button>
+            <button type="button" class="btn btn-light" data-weight="100"><span class="d-lg-none">EL</span><span
+                    class="d-none d-lg-block">ExtraLight</span></button>
+            <button type="button" class="btn btn-light" data-weight="300"><span class="d-lg-none">L</span><span
+                    class="d-none d-lg-block">Light</span></button>
+            <button type="button" class="btn btn-primary" data-weight="400"><span class="d-lg-none">N</span><span
+                    class="d-none d-lg-block">Normal</span></button>
+            <button type="button" class="btn btn-light" data-weight="500"><span class="d-lg-none">M</span><span
+                    class="d-none d-lg-block">Medium</span></button>
+            <button type="button" class="btn btn-light" data-weight="700"><span class="d-lg-none">B</span><span
+                    class="d-none d-lg-block">Bold</span></button>
+            <button type="button" class="btn btn-light" data-weight="900"><span class="d-lg-none">H</span><span
+                    class="d-none d-lg-block">Heavy</span></button>
         </div>
         <input id="preview-size-selector" class="custom-range" type="range" min="24" max="120" value="36">
         <div class="preview">
@@ -54,8 +60,8 @@
     </div>
 
     <p class="note mt-4">
-        本網頁的中文字體使用「昭源黑體」網頁字型。若在上面文字框輸入本網頁未有使用的字，瀏覽器須額外下載相應的網頁字型字集再作顯示，在流動網絡使用時請留意數據用量。又由於目前瀏覽器的限制，無法同時提供 Normal
-        和 Regular 字重供預覽。
+        本網頁的中文字體使用「昭源黑體」網頁字型排版。在上面的文字框輸入文字後，瀏覽器或須下載相應的網頁字型字集以作顯示，而這會導致額外的數據用量，在流動網絡使用時請留意。由於目前瀏覽器的限制，無法同時提供 Normal 和
+        Regular 字重供預覽。
     </p>
 
 
@@ -68,7 +74,7 @@
             <p class="lead my-3">你可以<a href="https://github.com/tamcy/chiron-sans-hk/releases" target="_blank">通過本專案
                 Github 網頁中的 Releases 頁面</a>或下方的連結下載「昭源黑體」的最新版本。</p>
 
-            <div class="">
+            <div class="download-row">
                 <a class="btn btn-outline-primary btn-lg"
                    href="https://github.com/tamcy/chiron-sans-hk/archive/v2.014.zip"><i
                         class="fas fa-arrow-circle-down"></i> 下載
@@ -130,7 +136,7 @@
         </p>
 
 
-        <div class="container m-4">
+        <div class="container my-4">
             <div class="row justify-content-center bg-light">
                 <div class="col col-md-10 col-lg-8 col-xl-6 p-4">
                     <img src="images/trad_mod_compare.png" class="img-fluid">
@@ -170,7 +176,7 @@
             年初版並經多次修訂、為手寫楷書而設的《常用字字形表》為主要參考依據。《常用字字形表》是針對書寫體而設，《香港電腦漢字參考字形》將之套用到印刷字體，採用「宋體與楷體字形規律一致的總體原則」，其字形規律「並無楷宋之分」，以維持手寫和印刷字形的一致性。所以《參考字形》中所訂定的宋體（印刷體）字形固然屬於現代筆形，也同時將本來只用於楷書、在過往印刷體（即使是採現代筆形，無論宋體還是黑體）字形中極為罕見的的部件形態移植到印刷體。但是，屬手寫體的楷體和屬印刷體的宋、黑字體在畢竟是兩種架構，過份強調書寫筆形會令印刷體失去了原本端正、整齊的感覺。又有些字，《參考字形》選定的筆形在楷書上並無問題，但應用到宋、黑字體卻顯得有點尷尬。
         </p>
 
-        <div class="container m-4">
+        <div class="container my-4">
             <div class="row justify-content-center bg-light">
                 <div class="col col-md-10 col-lg-8 col-xl-6 p-4">
                     <img src="images/hkglyph_compare.png" class="img-fluid">
@@ -191,7 +197,7 @@
     <div class="answer">
 
 
-        <div class="container m-4">
+        <div class="container my-4">
             <div class="row justify-content-center bg-light">
                 <div class="col p-4">
                     <img src="images/font_weights.png" class="img-fluid">

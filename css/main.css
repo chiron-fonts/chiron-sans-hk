@@ -62,3 +62,21 @@ p, li {
     font-size: 95%;
     color: #6c757d;
 }
+
+@media (max-width: 575.98px) {
+    .display-1 {
+        font-size: 4rem;
+    }
+
+    h1 small {
+        font-size: 52%;
+    }
+
+    div.section-title {
+        font-size: 2.8rem;
+    }
+}
+
+.download-row {
+    line-height: 3;
+}
