@@ -8,11 +8,11 @@ body {
 }
 
 div.section-title {
-    margin: 3rem;
-    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    font-size: 3.2rem;
     font-weight: 100;
     line-height: 1.2;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 h1.display-4, h1.display-3 {
@@ -55,37 +55,10 @@ p, li {
     font-size: 1.3rem;
 }
 
-table.char-sample td {
-    padding: 8px;
-    text-align: center;
-}
-
-@media only screen and (min-width: 720px) {
-    table.char-sample td {
-        padding: 24px;
-    }
-}
-
-@media only screen and (min-width: 960px) {
-    table.char-sample td {
-        padding: 36px;
-    }
-}
-
-table.char-sample td img {
-    width: 50%;
-}
-
-div.card img.side {
-    height: 225px;
-    width: 100%;
-}
-
-div.font-weight-demo {
-    background-color: #eee;
-}
-
-div.carousel-item .d-block {
-    font-size: 20vw;
-    text-align: center;
+.note {
+    font-weight: 300;
+    border-left: 3px solid #bcc5cd;
+    padding-left: 1em;
+    font-size: 95%;
+    color: #6c757d;
 }
