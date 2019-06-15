@@ -1,10 +1,16 @@
+v2.014 (2019/6/15)
+==========
+- Modified the design of 64 additional glyphs.
+- Updated the design of U+54CB 哋. 
+- Fixed the design of U+92B3 銳.
+
 v2.013 (2019/5/28)
 ==========
-- Updated the design of 96 glyphs.
+- Modified the design of 96 additional glyphs.
 
 v2.012 (2019/5/12)
 ==========
-- Updated the design of 90 glyphs.
+- Modified the design of 90 additional glyphs.
 - U+540D 名 now using the TW glyph in Source Han Sans 1.004. 
 - Mapped the glyph of Suzhou Numeral Nine U+3029 to ㄆ (Bopomofo Letter P, U+3106). I believe such form is more frequently seen in Hong Kong. 
 

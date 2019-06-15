@@ -1,3 +1,6 @@
+Copyright 2019 Tamcy (https://github.com/tamcy/chiron-sans-hk), with Reserved Font
+Name 'Chiron' and '昭源'.
+
 This Font Software is licensed under the SIL Open Font License,
 Version 1.1.
 
