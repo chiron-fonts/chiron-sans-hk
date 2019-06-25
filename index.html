@@ -54,7 +54,7 @@
         <div class="preview">
             <div id="preview-content" contenteditable="true" class="lead"
                  style="font-family: 'Chiron Sans HK WS'; font-weight: 400 ; font-size: 36px; text-align: left;">
-                昭源黑體是一款以思源黑體香港版為基礎、採現代筆形風格、平衡標準字形和印刷體慣用筆形的免費黑體字型。<br/>你可以在這裏輸入文字預覽效果，並利用上面的工具調整字重和大小。試試看吧！
+                昭源黑體是一款以思源黑體香港版為基礎、採現代筆形風格、平衡標準字形和印刷體慣用筆形的免費開源黑體字型。<br/>你可以在這裏輸入文字預覽效果，並利用上面的工具調整字重和大小。試試看吧！
             </div>
         </div>
     </div>
@@ -66,7 +66,7 @@
     </p>
 
 
-    <div class="answer mt-4">
+    <div class="answer mt-4" id="download">
         <div class="p-4 p-md-5 rounded bg-light">
             <div class="display-4 text-secondary text-left">
                 下載
@@ -79,26 +79,25 @@
                 <a class="btn btn-outline-primary btn-lg"
                    href="https://github.com/tamcy/chiron-sans-hk/archive/v2.014.zip"><i
                         class="fas fa-arrow-circle-down"></i> 下載
-                    <small>｜ 版本 2.014 (2019/6/15)‧基於思源黑體 2.001 版</small>
+                    <small>｜ 版本 2.015 (2019/6/26)‧基於思源黑體 2.001 版</small>
                 </a>
 
                 <a class="btn btn-outline-secondary btn-lg" href="changelog.html" target="_blank">更新紀錄</a>
-                <a href="files/modified-glyphs.pdf" class="btn btn-lg btn-outline-secondary" target="_blank">修改字形對照表
-                    (PDF)</a>
             </div>
 
             <div class="lead mt-3">
                 <p>字型檔以 ZIP 格式壓縮，包含以下內容：</p>
 
-                <h3 class="border-bottom">OpenType 格式字型檔</h3>
+                <h3 class="border-bottom">OpenType 格式字型檔 (build/otf 目錄)</h3>
 
                 <ul>
                     <li>字體以 OpenType/CFF 格式封裝</li>
                     <li>副檔名為 .OTF</li>
                     <li>建議一般安裝使用</li>
+                    <li>安裝後的字體名稱是 Chiron Sans HK</li>
                 </ul>
 
-                <h3 class="border-bottom">TrueType 格式字型檔</h3>
+                <h3 class="border-bottom">TrueType 格式字型檔 (build/ttf 目錄)</h3>
 
                 <ul>
                     <li>字體以 TrueType 格式封裝</li>
@@ -110,13 +109,15 @@
                         值，某些軟件會誤將這個值當成行高而造成行高過大的問題（例如在 Adobe
                         Illustrator 軟件會導致選框過大）
                     </li>
+                    <li>安裝後的字體名稱是 Chiron Sans HK TT</li>
                 </ul>
 
-                <h3 class="border-bottom">網頁字型檔</h3>
+                <h3 class="border-bottom">網頁字型檔 (build/webfont 目錄)</h3>
 
                 <ul>
-                    <li>可供製作網頁時嵌入的字體，每個字重拆分成百多個 .woff 檔</li>
-                    <li>詳情請參閲壓縮檔中 build 目錄內的 README.md 文字檔</li>
+                    <li>可供製作網頁時嵌入的字體</li>
+                    <li>採用 Unicode-range subsetting，每個字重拆分成百多個 .woff 檔，由於瀏覽器只會下載有使用的字集，可大幅減少下載時間和大小</li>
+                    <li>使用詳情請參閲壓縮檔中 build 目錄內的 README.md 文字檔</li>
                 </ul>
 
             </div>
@@ -273,19 +274,31 @@
 
     <div class="answer">
         <p>
-            思源黑體的中日韓字碼覆蓋數超過四萬，當中承諾符合香港《參考字形》的字碼限於 Big5 和 HKSCS-2016 碼表中的字。昭源黑體是我在工餘時間製作和維護的字體專案，在人力和時間上都不容許我將所有字碼（尤其原字體「香港字形」支援範圍以外的字碼）字形都改成個人屬意的樣式。本字體的製作可分為兩個步驟：<strong>審視</strong>和<strong>修改</strong>。
+            思源黑體的中日韓字碼覆蓋數超過四萬，香港版承諾符合香港《參考字形》的字碼限於 Big5 和 HKSCS-2016 碼表中的字。Big5 碼（大五碼）是台灣電腦廠商在 80 年代研發的電腦字符集標準，香港在 90
+            年代以此之上發展出 HKSCS（香港增補字符集）擴展字符集以補原大五碼收字之不足。所以 Big5 加上 HKSCS 大致能反映絕大多數香港使用者日常會用到的字符（為簡潔起見謹以「香港字符集」概稱之）。</p>
+
+        <p>
+            昭源黑體是我在工餘時間製作和維護的字體專案，在人力和時間上都不容許我將所有字碼（尤其原字體「香港字形」支援範圍以外、不屬「香港字符集」的字碼）的字形都改成個人屬意的樣式。本字體的製作可分為兩個步驟：<strong>審視</strong>和<strong>修改</strong>。
         </p>
 
-        <p>在審視階段，我會檢查哪些字碼的字形不符本字體的審美。審視的字碼範圍主要限於「思源黑體」的香港字形支援範圍，即 Big5 和 HKSCS 碼表中的的 18,000
-            多字。這個範圍內，不符本字體審美者會作出修改。要修改的字碼會視情況從其他地區的字形中找一個合適的版本（即「更改映射」）或重繪字形。由於資源所限（尤其本字體重繪一個字其實牽涉 7
-            個字重），本字體會以「更改映射」為主、「重繪字形」為輔。一般來説，會進行重繪字形工作的限於常用字。而重繪時所用的字圖均取自思源黑體，以求風格一致。</p>
+        <p>在審視階段，我會檢查哪些字碼的字形不符本字體的審美。審視的字碼範圍主要限於「思源黑體」的香港字形支援範圍，即「香港字符集」中的 18,000
+            多字。這個範圍內，不符本字體審美者會作出修改。要修改的字碼會視情況從其他地區的字形中找一個合適的版本（即「更改映射」）或重繪字形。由於資源所限（留意本字體重繪一個字其實牽涉 7
+            個字重），本字體會以「更改映射」為主、「重繪字形」為輔。一般來説，會進行重繪字形工作的限於常用字。為求風格一致，重繪時所用的字形部件均取自思源黑體。</p>
 
-        <p>目前昭源黑體已將本來「思源黑體香港版」中超過 2,000 個字碼換成其他地區的字形，也重繪了超過 300 個字碼即逾 2100 個字圖。如有興趣可<a
-                href="files/modified-glyphs.pdf"
-                target="_blank">下載重繪字形對照表</a>比較。
+        <p class="note">
+            我明白「常用字」這個説法難免有主觀元素，假如發現「香港字符集」之內想改、應改而本字體未改的常用字碼，歡迎提出，只是我不能保證一定會改或何時會改，這點敬希使用者體諒。</p>
+
+        <p>目前，昭源黑體已將本來「思源黑體香港版」中超過 2,000 個字元換成其他地區的字形，也重繪了超過 400 個字元即逾 2400 個字圖。如有興趣可循下面的連結下載更改對映/重繪字形對照表的 PDF 檔案比較。
         </p>
 
-        <p>當然「常用字」難免有其主觀性，假如發現想改、應改而本字體未改的字碼，歡迎提出，只是我不能保證一定會改或何時會改，這點敬希使用者體諒。</p>
+        <p class="download-row text-center">
+            <a href="files/remapped-chars.pdf" class="btn btn-lg btn-outline-secondary" target="_blank">更改對映字元對照表
+                (12MB)</a>
+            <a href="files/redesigned-chars.pdf" class="btn btn-lg btn-outline-secondary" target="_blank">重繪字元對照表
+                (2.2MB)</a>
+        </p>
+
+
     </div>
 
     <div class="question h4 text-danger mt-4">
@@ -326,7 +339,7 @@
     </div>
 
     <div class="answer">
-        <p>雖然昭源黑體主要參考自採用現代筆形的香港商業字體、英文名稱又叫做 Chiron Sans HK，但未必不適用於台灣（或其他採用繁體漢字的地區）。因為：</p>
+        <p>雖然昭源黑體主要參考自採用現代筆形的香港商業字體、英文名稱又叫做 Chiron Sans HK，但未必不適用於台灣（或其他採用繁體漢字的地區，例如澳門）。因為：</p>
 
         <ul>
             <li>好些字形，台灣、香港標準是相同的，甚至有好些是傳統字形、台灣、香港三方相同。</li>
