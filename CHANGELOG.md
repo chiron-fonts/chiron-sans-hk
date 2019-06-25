@@ -1,3 +1,8 @@
+v2.015
+==========
+- Updated the design of U+55B0 喰, U+923D 鈽, U+9248 鉈, U+9278 鉸, U+9283 銃, U+92F9 鋹, U+9398 鎘 and U+9427 鐧.
+- Unicode-range subsetting strategy of Webfont build is now based on the latest version of Noto Sans TC. 
+
 v2.014 (2019/6/15)
 ==========
 - Modified the design of 64 additional glyphs.
