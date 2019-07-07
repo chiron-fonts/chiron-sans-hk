@@ -1,4 +1,10 @@
-v2.015
+v2.016 (2019/7/7)
+==========
+- Updated the design of the following 5 characters: 銹鋃鎚𩜠𩟔.
+- Updated the design of the following 51 characters: 䥑釕釹鈁鈈鈧鈰鉕鉝鉬鉭鉲鉳鉺銣銥銦銩銪鋦鋯鋱錇錒錸錼鍀鍅鍆鍩鍺鎇鎝鎦鎵鎶鎿鏌鐒鐠鐦鐨鐽鐿鑀鑥鑪𨧀𨨏𨭆𨭎.
+- Enhanced existing design of 芒 and 𤺧.
+
+v2.015 (2019/6/26)
 ==========
 - Updated the design of U+55B0 喰, U+923D 鈽, U+9248 鉈, U+9278 鉸, U+9283 銃, U+92F9 鋹, U+9398 鎘 and U+9427 鐧.
 - Unicode-range subsetting strategy of Webfont build is now based on the latest version of Noto Sans TC. 
