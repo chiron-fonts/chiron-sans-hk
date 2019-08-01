@@ -1,3 +1,9 @@
+v2.017 (2019/8/?)
+==========
+- Updated the design of the following 9 characters: 鉚鉞銕銙鋂鋋鋌鍵鏤.
+- Enhanced existing design of 諮.
+- Fixed incorrect mapping of 翁.
+
 v2.016 (2019/7/7)
 ==========
 - Updated the design of the following 5 characters: 銹鋃鎚𩜠𩟔.
