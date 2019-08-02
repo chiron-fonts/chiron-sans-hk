@@ -1,4 +1,4 @@
-v2.017 (2019/8/?)
+v2.017 (2019/8/2)
 ==========
 - Updated the design of the following 9 characters: 鉚鉞銕銙鋂鋋鋌鍵鏤.
 - Enhanced existing design of 諮.
