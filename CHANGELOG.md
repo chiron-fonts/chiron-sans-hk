@@ -1,3 +1,8 @@
+v2.018 (2019/12/16)
+==========
+- Corrected the design of U+8102 脂 and U+8179 腹.
+- Corrected the mapping of 纊 (JP → HK).
+
 v2.017 (2019/8/2)
 ==========
 - Updated the design of the following 9 characters: 鉚鉞銕銙鋂鋋鋌鍵鏤.
