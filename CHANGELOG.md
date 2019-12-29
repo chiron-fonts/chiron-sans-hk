@@ -1,3 +1,10 @@
+v2.019 (2019/12/29)
+==========
+- Updated the design of the following 27 characters: 呤唥囹搇泠舲蛉衾鈪錭鎞鎩鎬鎰鏙鏞鏹鏻鏾鐫鐶陰飣餖餮饕𡃶.
+- Redesigned U+25C4A 𥱊.
+- Added U+2D25D 𭉝 (⿰口殊).
+- Added >6,000 characters in CJK Ext-A and Ext-B to the webfont build.
+
 v2.018 (2019/12/16)
 ==========
 - Corrected the design of U+8102 脂 and U+8179 腹.
