@@ -35,6 +35,15 @@
                 <br/>
                 <small style="font-weight:500">Chiron Sans HK</small>
             </h1>
+            <div class="text-center mt-4">
+                <div class="fa-loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                </div>
+                <div class="hide-until-meta-loaded text-muted">
+                    最新版本：v<span class="font-current-version"></span>（<span
+                        class="font-release-date"></span> 發佈）
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -66,7 +75,8 @@
     </div>
 
     <p class="note mt-4">
-        本網頁的中文字使用「昭源黑體」網頁字型排版。在上面的文字框輸入文字後，瀏覽器或須下載相應的網頁字型字集以作顯示，這會導致額外的數據用量，在流動數據網絡使用時務請留意。本字體提供七種字重，惟礙於瀏覽器限制，網頁無法同時提供 Normal
+        本網頁的中文字使用「昭源黑體」網頁字型排版。在上面的文字框輸入文字後，瀏覽器或須下載相應的網頁字型字集以作顯示，這會導致額外的數據用量，在流動數據網絡使用時務請留意。本字體提供七種字重，惟礙於瀏覽器限制，網頁無法同時提供
+        Normal
         和
         Regular 字重供預覽。
     </p>
@@ -81,11 +91,17 @@
             <p class="lead my-3">你可以<a href="https://github.com/tamcy/chiron-sans-hk/releases" target="_blank">通過本專案
                 Github 網頁中的 Releases 頁面</a>或下方的連結下載「昭源黑體」的最新版本。</p>
 
-            <div class="download-row">
-                <a class="btn btn-outline-primary btn-lg"
+            <div class="fa-loading">
+                <i class="fas fa-spinner fa-spin"></i>
+            </div>
+
+            <div class="download-row hide-until-meta-loaded">
+                <a class="btn btn-outline-primary btn-lg font-download-link"
                    href="https://github.com/tamcy/chiron-sans-hk/archive/v2.019.zip"><i
                         class="fas fa-arrow-circle-down"></i> 下載
-                    <small>｜ 版本 2.019 (2019/12/29)<span class="d-none d-lg-inline d-xl-inline">‧基於思源黑體 2.001 版</span>
+                    <small>｜ 版本 <span class="font-current-version"></span> (<span
+                            class="font-release-date"></span>)<span class="d-none d-lg-inline d-xl-inline">‧基於思源黑體 <span
+                            class="font-upstream-version"></span> 版</span>
                     </small>
                 </a>
 
@@ -103,7 +119,10 @@
                     <li>安裝後的字體名稱是 Chiron Sans HK</li>
                 </ul>
 
-                <p class="note">安裝後，支援一個家族多款字重的軟件（如 Adobe Photoshop），字型清單只會有一款字體 Chiron Sans HK，使用者選擇字體後才再選字重。其他軟件（例如 Microsoft Office）則會將 Regular（正文字重）和 Bold（粗體）視為一個家族，使用者須先選擇 Regular 字重（名稱是 Chiron Sans HK，沒有字重標籤），再通過軟件中的「粗體」功能切換 Bold 字重；其他字重則會在字型清單中以「字型名稱 + 字重標籤」單獨顯示，例如 Chiron Sans HK ExtraLight、Chiron Sans HK Light 等。</p>
+                <p class="note">安裝後，支援一個家族多款字重的軟件（如 Adobe Photoshop），字型清單只會有一款字體 Chiron Sans HK，使用者選擇字體後才再選字重。其他軟件（例如
+                    Microsoft Office）則會將 Regular（正文字重）和 Bold（粗體）視為一個家族，使用者須先選擇 Regular 字重（名稱是 Chiron Sans
+                    HK，沒有字重標籤），再通過軟件中的「粗體」功能切換 Bold 字重；其他字重則會在字型清單中以「字型名稱 + 字重標籤」單獨顯示，例如 Chiron Sans HK
+                    ExtraLight、Chiron Sans HK Light 等。</p>
 
                 <h3 class="border-bottom">TrueType 格式字型檔 (build/ttf 目錄)</h3>
 
@@ -180,7 +199,9 @@
             到了 2018 年，思源黑體推出 2.0 版本，增加了香港地區字形支援。香港版的字形依據是 2017 年 5
             月公佈、香港政府與中文界面諮詢委員會合作編訂的<a
                 href="https://www.ogcio.gov.hk/tc/our_work/business/tech_promotion/ccli/cliac/reference_glyphs.html"
-                target="_blank">《香港電腦漢字參考字形》</a>（下稱《參考字形》）。這份文件中的字形，其筆形的制訂主要參考《常用字字形表》一書。此書在 1989 年由香港教育署語文教育學院初版，其後經多次修訂，《參考字形》根據的是 2000 年和 2007 年的修訂本。《常用字字形表》一書是針對手寫楷書而編寫，《參考字形》將之套用到印刷字體，採用「宋體與楷體字形規律一致的總體原則」，其字形規律「並無楷宋之分」，以維持手寫和印刷字形的一致性。所以《參考字形》中所訂定的宋體（印刷體）字形固然屬於現代筆形風格，它也同時將本來只用於楷書、在以往印刷體（即使是採現代筆形者，無論宋體還是黑體）中也極為罕見的部件形態移植到印刷體。但是，屬手寫體的楷體和屬印刷體的宋、黑字體畢竟是兩種架構，過份強調書寫筆形會令印刷體失去了原本端正、整齊的感覺。又有些字，《參考字形》選定的筆形在楷書上並無問題，但應用到宋、黑字體卻顯得有點尷尬。
+                target="_blank">《香港電腦漢字參考字形》</a>（下稱《參考字形》）。這份文件中的字形，其筆形的制訂主要參考《常用字字形表》一書。此書在 1989
+            年由香港教育署語文教育學院初版，其後經多次修訂，《參考字形》根據的是 2000 年和 2007
+            年的修訂本。《常用字字形表》一書是針對手寫楷書而編寫，《參考字形》將之套用到印刷字體，採用「宋體與楷體字形規律一致的總體原則」，其字形規律「並無楷宋之分」，以維持手寫和印刷字形的一致性。所以《參考字形》中所訂定的宋體（印刷體）字形固然屬於現代筆形風格，它也同時將本來只用於楷書、在以往印刷體（即使是採現代筆形者，無論宋體還是黑體）中也極為罕見的部件形態移植到印刷體。但是，屬手寫體的楷體和屬印刷體的宋、黑字體畢竟是兩種架構，過份強調書寫筆形會令印刷體失去了原本端正、整齊的感覺。又有些字，《參考字形》選定的筆形在楷書上並無問題，但應用到宋、黑字體卻顯得有點尷尬。
         </p>
 
         <div class="container my-4">
@@ -191,7 +212,8 @@
             </div>
         </div>
 
-        <p>對比香港市面採現代筆形的商用印刷字體，雖然也有參考《常用字字形表》的寫法、引入一些手寫字體的元素，但仍會保留傳統印刷字體的氣韻，不會完全「楷書化」。<strong>「昭源黑體」的取態跟這些字體類似：本字體參考「思源黑體 香港」中的香港標準字形和採現代筆形的商用印刷字體字形，提供一個「中間着墨」的開源字體方案。</strong></p>
+        <p>對比香港市面採現代筆形的商用印刷字體，雖然也有參考《常用字字形表》的寫法、引入一些手寫字體的元素，但仍會保留傳統印刷字體的氣韻，不會完全「楷書化」。<strong>「昭源黑體」的取態跟這些字體類似：本字體參考「思源黑體
+            香港」中的香港標準字形和採現代筆形的商用印刷字體字形，提供一個「中間着墨」的開源字體方案。</strong></p>
     </div>
 
     <hr class="m-4"/>
@@ -222,7 +244,9 @@
         <h2>收字量</h2>
 
         <ul>
-            <li>昭源黑體以「思源黑體 香港」中的 Language-specific OpenType/CFF (OTF) 版為基礎製作。這個版本覆蓋 Unicode 超過 44,000 碼位，假如應用程式支援，還可通過字檔案中定義的 locl 功能調用符合其他地區寫法的字圖（例如在香港版調用日本版的字形式樣），令每個字重的字圖總數高達 65,535 個。昭源黑體完整保留這個版本的碼位覆蓋，不過刪除了以 locl 功能調用其他地區字圖的功能。
+            <li>昭源黑體以「思源黑體 香港」中的 Language-specific OpenType/CFF (OTF) 版為基礎製作。這個版本覆蓋 Unicode 超過 44,000
+                碼位，假如應用程式支援，還可通過字檔案中定義的 locl 功能調用符合其他地區寫法的字圖（例如在香港版調用日本版的字形式樣），令每個字重的字圖總數高達 65,535
+                個。昭源黑體完整保留這個版本的碼位覆蓋，不過刪除了以 locl 功能調用其他地區字圖的功能。
             </li>
         </ul>
 
@@ -277,7 +301,8 @@
 
     <div class="answer">
         <p>
-            思源黑體覆蓋超過 40,000 個中日韓表意文字字符，香港版承諾符合《參考字形》的字碼限於 Big5 和 HKSCS-2016 碼表中的字（約 18,000 多個）。Big5 碼（大五碼）是台灣電腦廠商在 80 年代研發的中文電腦字符編碼標準，香港在 90
+            思源黑體覆蓋超過 40,000 個中日韓表意文字字符，香港版承諾符合《參考字形》的字碼限於 Big5 和 HKSCS-2016 碼表中的字（約 18,000 多個）。Big5 碼（大五碼）是台灣電腦廠商在 80
+            年代研發的中文電腦字符編碼標準，香港在 90
             年代在此之上發展出 HKSCS（香港增補字符集）擴展字符集以補原大五碼收字之不足。所以 Big5 加上 HKSCS 大致能反映絕大多數香港使用者日常會用到的字符（為簡潔起見這裏謹以「香港字符集」概稱之）。</p>
 
         <p>
@@ -304,11 +329,15 @@
         <p>目前，昭源黑體已將本來「思源黑體 香港」中超過 2,000 個字元換成其他地區的字形，也重繪了超過 500 個字元即逾 3500 個字圖。如有興趣，可循下方連結下載更改對映/重繪字形對照表的 PDF 檔案比較。
         </p>
 
-        <p class="download-row text-center">
+        <div class="fa-loading">
+            <i class="fas fa-spinner fa-spin"></i>
+        </div>
+
+        <p class="download-row text-center hide-until-meta-loaded">
             <a href="files/remapped-chars.pdf" class="btn btn-lg btn-outline-secondary" target="_blank">更改對映字元對照表
-                (30MB)</a>
+                (<span class="remapped-chars-filesize"></span>)</a>
             <a href="files/redesigned-chars.pdf" class="btn btn-lg btn-outline-secondary" target="_blank">重繪字元對照表
-                (8MB)</a>
+                (<span class="redesigned-chars-filesize"></span>)</a>
         </p>
 
 
@@ -389,8 +418,7 @@
 </article>
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
         crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -415,6 +443,20 @@
         var text = (e.originalEvent || e).clipboardData.getData('text/plain');
         document.execCommand("insertHTML", false, text);
     });
+
+    $(document).ready(function () {
+        $.getJSON("meta.json", function (data) {
+            $('.font-download-link').attr('href', data['url']);
+            $('.font-current-version').text(data['version']);
+            $('.font-upstream-version').text(data['upstream']);
+            $('.font-release-date').text(data['date']);
+            $('.remapped-chars-filesize').text(data['remap_chars_pdf']['size']);
+            $('.redesigned-chars-filesize').text(data['redesign_chars_pdf']['size']);
+
+            $('.fa-loading').hide();
+            $('.hide-until-meta-loaded').show();
+        });
+    })
 });</script>
 </body>
 

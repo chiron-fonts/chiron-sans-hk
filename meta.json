@@ -1,0 +1,12 @@
+{
+  "version": "2.020",
+  "date": "2020/01/22",
+  "upstream": "2.001",
+  "url": "https://github.com/tamcy/chiron-sans-hk/archive/v2.020.zip",
+  "remap_chars_pdf": {
+    "size": "28MB"
+  },
+  "redesign_chars_pdf": {
+    "size": "11MB"
+  }
+}

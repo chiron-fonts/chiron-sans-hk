@@ -80,3 +80,7 @@ p, li {
 .download-row {
     line-height: 3;
 }
+
+.hide-until-meta-loaded {
+    display: none;
+}
