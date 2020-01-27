@@ -1,3 +1,29 @@
+:root {
+    --blue: #039be5;
+    --red: #FF5722;
+    --teal: #607D8B;
+}
+
+a {
+    color: var(--blue);
+}
+
+.btn-outline-primary {
+    border-color: var(--blue);
+    color: var(--blue);
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-outline-primary:hover {
+    background-color: var(--blue);
+    border-color: var(--blue);
+}
+
+.text-danger, code {
+    color: var(--red)!important;
+}
+
 body {
     font-family: "Aphrus Sans", "Chiron Sans HK WS";
     text-align: justify;
@@ -12,7 +38,7 @@ div.section-title {
     font-size: 3.2rem;
     font-weight: 100;
     line-height: 1.2;
-    /*text-align: center;*/
+    color: var(--teal)!important;
 }
 
 h1.display-4, h1.display-3 {
@@ -83,4 +109,33 @@ p, li {
 
 .hide-until-meta-loaded {
     display: none;
+}
+
+.carousel-item p {
+    font-weight: 200;
+}
+
+.carousel-item img {
+    margin-bottom: 200px;
+}
+
+.carousel-caption {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #039be5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-caption p, .carousel-caption div {
+    flex: 1;
+}
+
+li.nav-item {
+    font-size: 1.1rem;
 }

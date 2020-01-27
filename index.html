@@ -35,22 +35,44 @@
                 <br/>
                 <small style="font-weight:500">Chiron Sans HK</small>
             </h1>
-            <div class="text-center mt-4">
+
+            <ul class="nav justify-content-center mt-5 bg-light rounded">
+                <li class="nav-item">
+                    <a class="nav-link" href="#overview">簡介</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#background">背景</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#motivation">製作動機</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#differences">與思源黑體的異同</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#download">下載</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#qna">問與答</a>
+                </li>
+            </ul>
+
+            <div class="text-center mt-5">
                 <div class="fa-loading">
                     <i class="fas fa-spinner fa-spin"></i>
                 </div>
                 <div class="hide-until-meta-loaded text-muted">
                     最新版本：v<span class="font-current-version"></span>（<span
-                        class="font-release-date"></span> 發佈）
+                        class="font-release-date"></span>）
                 </div>
             </div>
+
         </div>
     </div>
 </div>
 
 <article class="container">
-
-    <div class="mt-4 card p-4">
+    <div class="card p-4">
         <div id="preview-weight-selector" class="btn-group" role="group" aria-label="Basic example">
             <button type="button" class="btn btn-light" data-weight="100"><span class="d-lg-none">EL</span><span
                     class="d-none d-lg-block">ExtraLight</span></button>
@@ -69,20 +91,221 @@
         <div class="preview">
             <div id="preview-content" contenteditable="true" class="lead"
                  style="font-family: 'Chiron Sans HK WS'; font-weight: 400 ; font-size: 36px; text-align: left;">
-                昭源黑體是一款以思源黑體香港版為基礎、採現代筆形風格、平衡標準字形和印刷體慣用筆形的免費開源黑體字型。<br/>你可以在這裏輸入文字預覽效果，並利用上面的工具調整字重和大小。試試看吧！
+                昭源黑體是一款以思源黑體香港版為基礎、採現代筆形風格、平衡標準字形和印刷體慣用筆形的免費開源黑體字型。<br/>你可以在這個測試區輸入文字，並利用上面的工具切換不同字重和大小，預覽昭源黑體的顯示效果。試試看吧！
             </div>
         </div>
     </div>
 
     <p class="note mt-4">
-        本網頁的中文字使用「昭源黑體」網頁字型排版。在上面的文字框輸入文字後，瀏覽器或須下載相應的網頁字型字集以作顯示，這會導致額外的數據用量，在流動數據網絡使用時務請留意。本字體提供七種字重，惟礙於瀏覽器限制，網頁無法同時提供
-        Normal
-        和
-        Regular 字重供預覽。
+        ① 本網頁的中文字使用「昭源黑體」網頁字型排版，收字比一般安裝用的 OTF/TTF
+        版少。
+        <br/>
+        ② 在上面的文字框輸入文字後，瀏覽器或須下載相應的網頁字型字集以作顯示，這會導致額外的數據用量，流動數據網絡使用者務請留意。
+        <br/>
+        ③ 本字體提供七種字重，惟礙於瀏覽器限制，網頁暫未能同時提供 Normal 和 Regular
+        字重供測試。
     </p>
 
+    <div class="section-title text-secondary text-center mt-4" id="overview">
+        簡介
+    </div>
 
-    <div class="answer mt-4" id="download">
+    <div class="answer">
+
+        <div id="carouselOverview" class="carousel slide" data-ride="carousel" data-interval="10000">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselOverview" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselOverview" data-slide-to="1"></li>
+                <li data-target="#carouselOverview" data-slide-to="2"></li>
+                <li data-target="#carouselOverview" data-slide-to="3"></li>
+                <li data-target="#carouselOverview" data-slide-to="4"></li>
+                <li data-target="#carouselOverview" data-slide-to="5"></li>
+                <li data-target="#carouselOverview" data-slide-to="6"></li>
+                <li data-target="#carouselOverview" data-slide-to="7"></li>
+                <li data-target="#carouselOverview" data-slide-to="8"></li>
+                <li data-target="#carouselOverview" data-slide-to="9"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/carousel-01.png" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <p>《香港電腦漢字參考字形》不區分手寫、印刷體，而以手寫楷書為本，所定字形在印刷體未必合適。「昭源黑體」會視情況選擇，不會盡依「參考字形」。</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel-02.png" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <p>「昭源黑體」所選字形廣泛應用於日常生活，大眾不會陌生。</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel-03.png" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <p>例如「雨」部件字採傳統印刷體樣式，減低跳躍感。</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel-04.png" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <p>又如「女」部件字，以傳統印刷體不穿頭、作偏旁保留橫筆的寫法較穩定。</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel-05.png" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <p>不屬「標準差異」但思源黑體以「地區差異」區分者，昭源黑體會在可行情況下選擇設計較佳的版本。如「金」偏旁等「人」部件在頂的字會以日本字形為首選。</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel-06.png" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <p>為免排版時出現不一致，昭源黑體會按選定式樣重繪部份相同部件的字。</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel-07.png" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <p>
+                            思源黑體沒有「日版亼」加「港版艮」的設計，屬昭源黑體特有。
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel-08.png" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <p>
+                            昭源黑體着重顯示效果多於保存參考字形的筆畫特徵。例如「無、舞」和「竹花頭」，選用筆畫相連的版本明顯可以減低視覺辨認上的干擾。
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel-09.png" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <p>
+                            所有修改字形都提供 7 款字重，不用擔心切換字重後會有字形不一致的情況。
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carousel-10.png" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <p>
+                            增收兩個在香港流行程度不低的粵語用字「𫬷」和「𭉝」。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselOverview" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselOverview" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="section-title text-secondary text-center mt-5" id="background">
+        背景
+    </div>
+
+    <div class="answer">
+
+        <p><strong>昭源黑體是一款以 Google 和 Adobe
+            聯合開發的「思源黑體」香港版為基礎，平衡標準字形和印刷體慣用筆形的黑體字型。</strong></p>
+
+        <p>
+            思源黑體屬於「泛中日韓」字體，對中文使用者而言可以視為兩種設計風格的集合：日、韓版字形以傳統筆形設計（大陸或稱「舊字形」），至於中港台版本的繁簡字形則使用現代筆形。
+        </p>
+
+        <div class="container my-4">
+            <div class="row justify-content-center bg-light">
+                <div class="col col-md-11 col-lg-11 col-xl-10 p-4">
+                    <img src="images/trad_mod_compare.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <p>粗略來説，傳統筆形較多平、直的筆畫，好些部件的寫法跟手寫楷書不盡相同。至於現代筆形，字體的筆畫組成則跟日常書寫的楷書字體較為接近。</p>
+
+        <p>跟思源黑體香港版一樣，昭源黑體採用<strong>現代筆形</strong>，但在個別字形的式樣上吸收了傳統筆形的特徵，使之更適合作顯示和印刷用途。
+        </p>
+
+        <p class="note">
+            上面提到的「傳統筆形」特徵，有些是針對印刷需要而做的特殊處理，但有些我們現在稱為「印刷體傳統筆形」、彷彿是印刷體獨有的寫法，一開始時大抵是手寫體的其中一種形態（印刷體本來就是脱胎自手寫體，傳統筆形中「言」、「辶」、「礻」、「糹」的寫法在隸書很常見，在古代楷書有時也有出現），只是雙方經歷千百年的個別發展後，才成為現在的不同模樣。另外，某些採用現代筆形的商業字體，也會像傳統筆形般對某些手寫屬一筆的部件作斷筆處理。</p>
+
+    </div>
+
+    <div class="section-title text-secondary text-center mt-5" id="motivation">
+        製作動機
+    </div>
+
+    <div class="answer">
+
+        <p>
+            <a href="https://zh.wikipedia.org/wiki/思源黑體" target="_blank">思源黑體</a>在 2014
+            年推出 1.0 版，當時支援繁體中文、簡體中文、日文和韓文四個語系，而繁體中文版的字形依據是<a
+                href="https://depart.moe.edu.tw/ed2400/News.aspx?n=8940E5C0456177C3&sms=893AAA1CBFE149DE"
+                target="_blank">台灣教育部的「國字標準字體」</a>。根據這個標準設計出來的字體，跟香港教學用的手寫楷書字形（以教育局《常用字字形表》為準）和社會上的慣見印刷字形（無論是採傳統還是現代筆形）都有一定的差異。於是我根據台灣版的思源黑體製作出較適用於香港環境、屬現代筆形、以「印刷品慣見字形」為主要依據的<a
+                href="https://github.com/tamcy/cyanheihk" target="_blank">昭源甄黑體</a>。</p>
+
+        <p>
+            到了 2018 年，思源黑體 2.0 推出，將「繁體中文」拆分成「台灣」和「香港」版本，香港版的字形依據是 2017 年 5
+            月公佈、香港政府與中文界面諮詢委員會合作編訂的<a
+                href="https://www.ogcio.gov.hk/tc/our_work/business/tech_promotion/ccli/cliac/reference_glyphs.html"
+                target="_blank">《香港電腦漢字參考字形》</a>（下稱《參考字形》）。這份文件中的字形，其筆形的制訂則係參考《常用字字形表》。《常用字字形表》在 1989
+            年由香港教育署語文教育學院初版，其後經多次修訂，而《參考字形》根據的是 2000 年和 2007
+            年的修訂本。《常用字字形表》本來是針對手寫楷書而編訂，《參考字形》將之套用到印刷字體，採取「宋體與楷體字形規律一致的總體原則」，其字形規律「並無楷宋之分」，以維持手寫和印刷字形的一致性。《參考字形》所訂定的宋體（印刷體）字形固然屬於現代筆形風格，它也同時將本來只用於楷書、在以往印刷體（即使是採現代筆形者，無論宋體還是黑體）中也極為罕見的部件形態移植到印刷體。但是，屬手寫體的楷體和屬印刷體的宋、黑字體畢竟是兩種架構，過份強調書寫筆形會令印刷體失去了原本端正、整齊的感覺。又有些字，《參考字形》選定的筆形在楷書上並無問題，但用在宋、黑字體卻顯得有點尷尬。
+        </p>
+
+        <div class="container my-4">
+            <div class="row justify-content-center bg-light">
+                <div class="col col-md-10 col-lg-8 col-xl-6 p-4">
+                    <img src="images/hkglyph_compare.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <p>在香港，坊間採用現代筆形設計的商用字體雖然也有參考《常用字字形表》的寫法、引入一些手寫字體的元素，但仍會保留傳統印刷字體的氣韻，不會完全「楷書化」。<strong>「昭源黑體」的取態跟這些字體類似：本字體會參考「思源黑體
+            香港」中的香港標準字形和採現代筆形的商用印刷字體字形，提供一個「中間着墨」的開源字體方案。</strong></p>
+    </div>
+
+    <div class="section-title text-secondary text-center mt-5" id="differences">
+        與思源黑體的異同
+    </div>
+
+    <div class="answer">
+
+        <p>「昭源黑體」提供和思源黑體相同的 7 款字重。除了個別中文字的字形經過修改，本字體的其他參數與思源黑體完全相同。差異則如下：</p>
+
+        <h2>名稱</h2>
+
+        <ul>
+            <li>「思源黑體」會因應使用者的作業系統語言和所使用的軟件以英文名稱或本地化名稱顯示。「昭源黑體」則一律使用英文名稱「Chiron Sans HK」，不顯示中文名稱。</li>
+        </ul>
+
+        <h2>收字量</h2>
+
+        <ul>
+            <li>昭源黑體以「思源黑體 香港」中的 Language-specific OpenType/CFF (OTF) 版為基礎製作。這個版本覆蓋 Unicode 超過 44,000
+                碼位，假如應用程式支援，還可通過字檔案中定義的 locl 功能調用符合其他地區寫法的字圖（例如在香港版調用日本版的字形式樣），令每個字重的字圖總數高達 65,535
+                個。昭源黑體完整保留這個版本的碼位覆蓋，不過刪除了以 locl 功能調用其他地區字圖的功能。
+            </li>
+        </ul>
+
+        <h2>其他</h2>
+
+        <ul>
+            <li>思源黑體香港版的西文單雙引號（‘、’、“、”）以全形顯示。由於繁體中文環境使用中文款式的單雙引號（「」『』），本字體將西文單雙引號改為半形，方便中英混排。這種做法與思源黑體日、韓版相同。</li>
+            <li>由於繁體中文環境不會壓縮全形標點符號，本字體將相關的 halt、vhal、palt、vpal 指令移除，使用排版軟件時不須額外設定。</li>
+            <li>本字體包含一些思源黑體沒有的收字。</li>
+        </ul>
+
+    </div>
+
+    <div class="answer mt-5" id="download">
         <div class="p-4 p-md-5 rounded bg-light">
             <div class="display-4 text-secondary text-left">
                 下載
@@ -107,6 +330,11 @@
 
                 <a class="btn btn-outline-secondary btn-lg" href="changelog.html" target="_blank">更新紀錄</a>
             </div>
+
+            <p class="lead mt-3 text-muted  ">
+                字體使用 <a target="_blank" href="https://scripts.sil.org/OFL_web">SIL Open Font License 版本 1.1 授權</a>，請參看下方<a
+                    href="#qna-license">有關此一授權的答問</a>以獲得更多資訊。
+            </p>
 
             <div class="lead mt-3">
                 <p>字型檔以 ZIP 格式壓縮，包含三種字型格式，每種格式均提供 ExtraLight、Light、Normal、Regular、Medium、Bold、Heavy 七種字重。詳情如下：</p>
@@ -143,7 +371,7 @@
 
                 <ul>
                     <li>可供製作網頁時嵌入的字體，主要供網頁開發人員使用</li>
-                    <li>採用 Unicode-range subsetting，每個字重拆分成百多個 .woff 檔，由於瀏覽器只會下載有使用的字集，可大幅減少下載時間和大小</li>
+                    <li>採用 Unicode-range subsetting 技術，每個字重拆分成百多個 .woff 檔，由於瀏覽器只會下載有使用的字集，可大幅減少下載時間和大小</li>
                     <li>使用詳情請參閲壓縮檔中 build 目錄內的 README.md 文字檔</li>
                 </ul>
 
@@ -151,129 +379,7 @@
         </div>
     </div>
 
-    <div class="section-title text-secondary text-center mt-4">
-        簡介
-    </div>
-
-    <div class="answer">
-
-        <p><strong>昭源黑體是一款以 Google 和 Adobe
-            聯合發表的「思源黑體」香港版為基礎，平衡標準字形和印刷體慣用筆形的黑體字型。</strong></p>
-
-        <p>
-            昭源黑體的設計風格（如重心、中宮、筆畫造形等反映字體「個性」的特徵）完全繼承自思源黑體。思源黑體是一款「泛中日韓」字體，嚴格來説包含了兩種設計風格：日、韓版本的字形屬於傳統筆形（大陸或稱「舊字形」），至於中、港、台版本的繁簡字形則採用現代筆形。
-        </p>
-
-        <div class="container my-4">
-            <div class="row justify-content-center bg-light">
-                <div class="col col-md-10 col-lg-8 col-xl-6 p-4">
-                    <img src="images/trad_mod_compare.png" class="img-fluid">
-                </div>
-            </div>
-        </div>
-
-        <p>粗略來説，傳統筆形較多平、直的筆畫，好些部件的寫法跟手寫楷書不盡相同。至於現代筆形，字體的筆畫組成則跟日常書寫的楷書字體較為接近。</p>
-
-        <p>跟思源黑體香港版一樣，昭源黑體採用<strong>現代筆形</strong>，但在個別字形的式樣上吸收了傳統筆形的特徵，使之更適合作顯示和印刷用途。
-        </p>
-
-        <p class="note">
-            按上面提到的「傳統筆形」特徵，有些是針對印刷需要而做的特殊處理，但有些我們現在稱為「印刷體傳統筆形」、彷彿是印刷體獨有的寫法，一開始時大抵是手寫體的其中一種形態（印刷體本來就是脱胎自手寫體，傳統筆形中「言」、「辶」、「礻」、「糹」的寫法在隸書很常見，在古代楷書有時也有出現），只是雙方經歷千百年的個別發展後，才成為現在的不同模樣。另外，某些採用現代筆形的商業字體，也會像傳統筆形般對某些手寫屬一筆的部件作斷筆處理。</p>
-
-    </div>
-
-    <hr class="m-4"/>
-    <div class="section-title text-secondary text-center">
-        製作動機
-    </div>
-
-    <div class="answer">
-        <p>
-            話説<a href="https://zh.wikipedia.org/wiki/思源黑體" target="_blank">思源黑體</a>在 2014
-            年初推出時，支援繁體中文、簡體中文、日文和韓文四個語系的書體，不過繁體中文的字形依據是<a
-                href="https://depart.moe.edu.tw/ed2400/News.aspx?n=8940E5C0456177C3&sms=893AAA1CBFE149DE"
-                target="_blank">台灣教育部的「國字標準字體」</a>。根據這個標準設計出來的字體，無論跟香港教學用的手寫楷書字形（以教育局《常用字字形表》為準）還是社會上的慣見印刷字形（無論是採傳統還是現代筆形）都有一定的差異。於是我嘗試根據台灣版的思源黑體製作了較適用於香港環境、屬現代筆形、以「印刷品慣見字形」為主要依據的<a
-                href="https://github.com/tamcy/cyanheihk" target="_blank">昭源甄黑體</a>。</p>
-
-        <p>
-            到了 2018 年，思源黑體推出 2.0 版本，增加了香港地區字形支援。香港版的字形依據是 2017 年 5
-            月公佈、香港政府與中文界面諮詢委員會合作編訂的<a
-                href="https://www.ogcio.gov.hk/tc/our_work/business/tech_promotion/ccli/cliac/reference_glyphs.html"
-                target="_blank">《香港電腦漢字參考字形》</a>（下稱《參考字形》）。這份文件中的字形，其筆形的制訂主要參考《常用字字形表》一書。此書在 1989
-            年由香港教育署語文教育學院初版，其後經多次修訂，《參考字形》根據的是 2000 年和 2007
-            年的修訂本。《常用字字形表》一書是針對手寫楷書而編寫，《參考字形》將之套用到印刷字體，採用「宋體與楷體字形規律一致的總體原則」，其字形規律「並無楷宋之分」，以維持手寫和印刷字形的一致性。所以《參考字形》中所訂定的宋體（印刷體）字形固然屬於現代筆形風格，它也同時將本來只用於楷書、在以往印刷體（即使是採現代筆形者，無論宋體還是黑體）中也極為罕見的部件形態移植到印刷體。但是，屬手寫體的楷體和屬印刷體的宋、黑字體畢竟是兩種架構，過份強調書寫筆形會令印刷體失去了原本端正、整齊的感覺。又有些字，《參考字形》選定的筆形在楷書上並無問題，但應用到宋、黑字體卻顯得有點尷尬。
-        </p>
-
-        <div class="container my-4">
-            <div class="row justify-content-center bg-light">
-                <div class="col col-md-10 col-lg-8 col-xl-6 p-4">
-                    <img src="images/hkglyph_compare.png" class="img-fluid">
-                </div>
-            </div>
-        </div>
-
-        <p>對比香港市面採現代筆形的商用印刷字體，雖然也有參考《常用字字形表》的寫法、引入一些手寫字體的元素，但仍會保留傳統印刷字體的氣韻，不會完全「楷書化」。<strong>「昭源黑體」的取態跟這些字體類似：本字體參考「思源黑體
-            香港」中的香港標準字形和採現代筆形的商用印刷字體字形，提供一個「中間着墨」的開源字體方案。</strong></p>
-    </div>
-
-    <hr class="m-4"/>
-
-    <div class="section-title text-secondary text-center">
-        與思源黑體的異同
-    </div>
-
-    <div class="answer">
-
-
-        <div class="container my-4">
-            <div class="row justify-content-center bg-light">
-                <div class="col col-md-10 col-lg-8 col-xl-8 p-4">
-                    <img src="images/font_weights.png" class="img-fluid">
-                </div>
-            </div>
-        </div>
-
-        <p>「昭源黑體」提供和思源黑體相同的 7 款字重。除了個別中文字的字形經過修改，本字體的其他參數與思源黑體完全相同。差異則如下：</p>
-
-        <h2>名稱</h2>
-
-        <ul>
-            <li>「思源黑體」會因應使用者的作業系統語言和所使用的軟件以英文名稱或本地化名稱顯示。「昭源黑體」則一律使用英文名稱「Chiron Sans HK」，不顯示中文名稱。</li>
-        </ul>
-
-        <h2>收字量</h2>
-
-        <ul>
-            <li>昭源黑體以「思源黑體 香港」中的 Language-specific OpenType/CFF (OTF) 版為基礎製作。這個版本覆蓋 Unicode 超過 44,000
-                碼位，假如應用程式支援，還可通過字檔案中定義的 locl 功能調用符合其他地區寫法的字圖（例如在香港版調用日本版的字形式樣），令每個字重的字圖總數高達 65,535
-                個。昭源黑體完整保留這個版本的碼位覆蓋，不過刪除了以 locl 功能調用其他地區字圖的功能。
-            </li>
-        </ul>
-
-        <h2>其他</h2>
-
-        <ul>
-            <li>思源黑體香港版的西文單雙引號（‘、’、“、”）以全形顯示。由於繁體中文環境使用中文款式的單雙引號（「」『』），本字體將西文單雙引號改為半形，方便中英混排。這種做法與思源黑體日、韓版相同。</li>
-            <li>由於繁體中文環境不會壓縮全形標點符號，本字體將相關的 halt、vhal、palt、vpal 指令移除，使用排版軟件時不須額外設定。</li>
-            <li>本字體包含一些思源黑體沒有的收字。</li>
-        </ul>
-
-    </div>
-
-    <hr class="m-4"/>
-
-    <div class="section-title text-secondary text-center">
-        授權
-    </div>
-
-    <div class="answer">
-        <p>本字體使用 <a target="_blank" href="https://scripts.sil.org/OFL_web">SIL Open Font License 版本 1.1 授權</a>。如對授權有任何疑問可參閲相關授權網頁的
-            <a href="https://scripts.sil.org/OFL-FAQ_web" target="_blank">FAQ 頁面</a>。</p>
-    </div>
-
-    <hr class="m-4"/>
-
-    <div class="section-title text-secondary text-center">
+    <div class="section-title text-secondary text-center mt-5" id="qna">
         問與答
     </div>
 
@@ -296,24 +402,20 @@
     </div>
 
     <div class="question h4 text-danger mt-4">
-        <i class="fal fa-lightbulb-on"></i> 昭源黑體的製作方法是？是否所有字碼的字形都有按這款字體的製作方針作調整？
+        <i class="fal fa-lightbulb-on"></i> 昭源黑體的製作方法是？是否所有字碼都有遵照這款字體的製作方針調整字形？
     </div>
 
     <div class="answer">
         <p>
-            思源黑體覆蓋超過 40,000 個中日韓表意文字字符，香港版承諾符合《參考字形》的字碼限於 Big5 和 HKSCS-2016 碼表中的字（約 18,000 多個）。Big5 碼（大五碼）是台灣電腦廠商在 80
-            年代研發的中文電腦字符編碼標準，香港在 90
-            年代在此之上發展出 HKSCS（香港增補字符集）擴展字符集以補原大五碼收字之不足。所以 Big5 加上 HKSCS 大致能反映絕大多數香港使用者日常會用到的字符（為簡潔起見這裏謹以「香港字符集」概稱之）。</p>
+            思源黑體包含超過 44,000 個中日韓表意文字字符，而香港版承諾符合《參考字形》的字碼限於 Big5 和 HKSCS-2016 碼表中約 18,000 多字。Big5
+            碼（大五碼）是台灣電腦廠商在八十年代研發的中文電腦字符編碼標準；到了九十年代，香港在 Big5 碼之上發展出「香港增補字符集」(HKSCS) 以補其收字之不足。可以説，Big5 加 HKSCS
+            涵蓋了九成九香港人日常會用到的字符（為簡潔起見這裏以「香港字符集」概稱之）。</p>
 
-        <p>
-            昭源黑體是我在工餘時間製作和維護的字體專案，在人力和時間上都不容許我將所有字碼（尤其原字體「香港字形」支援範圍以外、不屬「香港字符集」的字碼）的字形都改成個人屬意的樣式。在這裏簡單介紹一下昭源黑體的製作方法。
-        </p>
+        <p>昭源黑體的製作可分為兩個步驟：<strong>審視</strong>和<strong>修改</strong>。</p>
 
-        <p>本字體的製作可分為兩個步驟：<strong>審視</strong>和<strong>修改</strong>。</p>
-
-        <p>在審視階段，我會檢查哪些字碼的字形不符本字體的審美。審視的字碼範圍主要限於「思源黑體」的香港字形支援範圍，即「香港字符集」中的 18,000
-            多字。這個範圍內，不符本字體審美者會作出修改。要修改的字碼會視情況從其他地區的字形中找一個合適的版本（即「更改映射」）或重繪字形。由於資源所限（重繪一個字其實牽涉 7
-            個字重），本字體會以「更改映射」為主、「重繪字形」為輔。一般來説，會進行重繪字形工作的限於常用字。為求風格一致，重繪時所用的字形部件均取自思源黑體。</p>
+        <p>在審視階段，我會檢查哪些字碼的字形不符本字體的審美。審視的字碼主要限於思源黑體的香港字形支援範圍，即「香港字符集」中的 18,000
+            多字。這個範圍內，不符本字體審美者會作出修改。要修改的字碼會視情況從其他地區的字形中找一個合適的版本（即「更改映射」）或重繪字形。更改映射容易，重繪字形則須較多人力和時間（重畫 1 個字其實牽涉 7
+            個字重）。礙於資源所限，假如其他地區沒有合適的字形，只有常用字才會以「重繪字形」解決。為求風格一致，重繪時所用的字形部件均取自思源黑體。</p>
 
         <div class="container my-4">
             <div class="row justify-content-center bg-light">
@@ -323,10 +425,13 @@
             </div>
         </div>
 
-        <p class="note">
-            我明白「常用字」這個説法難免有主觀元素，假如發現「香港字符集」之內想改、應改而本字體未改的常用字碼，歡迎提出，只是我不能保證一定會改或何時會改，這點敬希使用者體諒。又上述不是硬性標準，本字體製作至今事實上也已經有不少非常用字以「重繪字形」方式修改。</p>
+        <p>
+            昭源黑體是我在工餘時間製作和維護的字體專案，在人力和時間上都不容許我將「香港字符集」中全部不符本字體製作方針的字形都改成個人屬意的樣式，遑論原字體中「香港版」支援範圍之外、不屬「香港字符集」的字碼。這點還望使用者體諒。假如發現「香港字符集」之內想改、應改而本字體未改的常用字，歡迎提供建議。又上述只是行動大略而不是硬性規定，本字體至今其實也已經有不少非常用字以「重繪字形」方式修改。
+        </p>
 
-        <p>目前，昭源黑體已將本來「思源黑體 香港」中超過 2,000 個字元換成其他地區的字形，也重繪了超過 500 個字元即逾 3500 個字圖。如有興趣，可循下方連結下載更改對映/重繪字形對照表的 PDF 檔案比較。
+        <p>截至 <span class="font-current-version"></span> 版，昭源黑體中有 <span class="remapped-chars-count"></span>
+            個字形以「更改映射」方式修改，而以「重繪字形」方式修改的字元則有 <span class="redesigned-chars-count"></span> 個（即 <span
+                    class="redesigned-glyphs-count"></span> 個字圖）。如有興趣，可循下方連結下載更改對映/重繪字形對照表的 PDF 檔案比較。
         </p>
 
         <div class="fa-loading">
@@ -343,23 +448,23 @@
 
     </div>
 
-    <div class="question h4 text-danger mt-4">
+    <div class="question h4 text-danger mt-4" id="qna-license">
         <i class="fal fa-lightbulb-on"></i> 可以這樣將思源黑體修改嗎？使用昭源黑體會不會有侵權疑慮？
     </div>
 
     <div class="answer">
         <p>
-            思源黑體是一款免費、自由的開源字體，採用 SIL Open Font License (OFL) 授權，本身<a
-                href="https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web#a46b6e7d" target="_blank">容許將原字體修改後再用其他名稱發表的「二次創作」做法</a>（但必須改名，即不能用
-            Adobe 的「思源」或 Google 的 “Noto”），因此將思源黑體改成昭源黑體這做法完全沒有違反原字體的授權條款。
+            思源黑體是一款免費、自由的開源字體，採用 SIL Open Font License (OFL) 授權，本來就<a
+                href="https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web#a46b6e7d" target="_blank">容許修改原字體然後用其他名稱發表的「二次創作」做法</a>（但必須改名，即不能用
+            Adobe 的「思源」或 Google 的 “Noto”）。而修改的字形亦完全來自思源黑體本身，不牽涉其他字體。
         </p>
 
         <p class="note">
-            這裏有關修改思源字體的合法性純屬概括性的説明，略過了應該如何修改以符合 OFL 授權原則的技術性問題。請勿將本文視為第三方修改思源黑體的法律意見。
+            這裏有關修改思源字體的合法性純屬概括性的説明，略過了應該如何修改以符合 OFL 授權原則的技術性問題（例如須保留原字體版權資訊、修改字體檔內的 Reserved Font Name 之類）。請勿將本文視為第三方修改思源黑體的法律意見。
         </p>
 
         <p>OFL
-            要求衍生字體使用相同的授權，所以本字體亦採用 OFL 授權。這個授權的自由度甚高，例如可作以下的個人或商業用途而費用全免：
+            要求衍生字體使用相同的授權，換言之本字體亦採用 OFL 授權（所以其他人也可以修改本字體，然後用其他名稱發表）。這個授權的自由度甚高，例如可將字型作以下的個人或商業用途而費用全免：
         </p>
 
         <ul>
@@ -377,7 +482,7 @@
         </ul>
 
         <p>OFL 禁止的主要是明顯損害原作者著作權的行為，例如<a
-                href="https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web#f9c4ccfe" target="_blank">將本字體單獨販賣</a>，或只改了字體名稱就當成自己出品等。當然還是那一句，本文不構成任何法律意見，請以授權原文為準。
+                href="https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web#f9c4ccfe" target="_blank">拿 OFL 字體單獨販賣</a>，或只改了字體名稱就當成自己出品等。當然還是那一句，本文不構成任何法律意見，請以<a href="https://scripts.sil.org/cms/scripts/page.php?id=OFL" target="_blank">官方授權原文</a>和<a target="_blank" href="https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web">問答</a>內容為準。
         </p>
     </div>
 
@@ -386,13 +491,13 @@
     </div>
 
     <div class="answer">
-        <p>雖然昭源黑體主要參考自採用現代筆形的香港商業字體、英文名稱又叫做 Chiron Sans HK，但未必不適用於台灣（或其他採用繁體漢字的地區，例如澳門）。因為：</p>
+        <p>雖然昭源黑體主要參考自採用現代筆形的香港商業字體、英文名稱又叫做 Chiron Sans HK，但未必不適用於台灣（或其他採用繁體漢字的地區）。因為：</p>
 
         <ul>
             <li>好些字形，台灣、香港標準是相同的，甚至有好些是傳統字形、台灣、香港三方相同。</li>
             <li>昭源黑體好些修改了的字形，從結果來看跟台灣標準字體寫法是相同的（如戶部件、亦部件字）。</li>
             <li>昭源黑體好些修改了的字形雖然跟台灣標準字體不同，卻廣泛見於在台灣使用的商業字體（如火部件的設計）。</li>
-            <li>又有一些不合於現時標準、但符合傳統筆形的寫法，在台灣也有一定的使用基礎，因為有不少商業字體是採用傳統筆形。</li>
+            <li>又有一些不合於台港字形標準、但符合傳統筆形的寫法，在台灣也有一定的使用基礎，因為有不少商業字體是採用傳統筆形。</li>
             <li>台灣也有採用香港字型廠商的商業字體⸺亦即本字體主要參考對象⸺的例子。</li>
         </ul>
 
@@ -420,11 +525,11 @@
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 
 <script>$(function () {
@@ -450,8 +555,11 @@
             $('.font-current-version').text(data['version']);
             $('.font-upstream-version').text(data['upstream']);
             $('.font-release-date').text(data['date']);
-            $('.remapped-chars-filesize').text(data['remap_chars_pdf']['size']);
-            $('.redesigned-chars-filesize').text(data['redesign_chars_pdf']['size']);
+            $('.remapped-chars-filesize').text(data['remap_chars']['pdf_size']);
+            $('.redesigned-chars-filesize').text(data['redesign_chars']['pdf_size']);
+            $('.remapped-chars-count').text((data['remap_chars']['count']).toLocaleString());
+            $('.redesigned-chars-count').text((data['redesign_chars']['count']).toLocaleString());
+            $('.redesigned-glyphs-count').text((data['redesign_chars']['count'] * 7).toLocaleString());
 
             $('.fa-loading').hide();
             $('.hide-until-meta-loaded').show();
