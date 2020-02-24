@@ -27,43 +27,93 @@
 </head>
 
 <body>
+<nav class="navbar navbar-expand-md navbar-light fixed-top bg-white shadow-sm">
+    <a class="navbar-brand" href="#top">昭源黑體</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#preview">字型預覽</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#overview">簡介</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#background">背景</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#motivation">製作動機</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#differences">與思源黑體的異同</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#download"><strong>下載</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#qna">問與答</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/tamcy/chiron-sans-hk" target="_blank">
+                    <i class="fab fa-github"></i> Github <small><i class="fas fa-external-link"></i></small>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
-<div class="position-relative overflow-hidden">
+<div class="position-relative overflow-hidden" id="top">
     <div class="container mx-auto my-5" style="z-index: 10; position: relative;">
         <div>
+            <br/>
             <h1 class="display-1 text-center" style="font-weight:700; line-height:1.0; letter-spacing: 1px;">昭源黑體
                 <br/>
-                <small style="font-weight:500">Chiron Sans HK</small>
+                <small style="font-weight:700">Chiron Sans HK</small>
             </h1>
 
-            <ul class="nav justify-content-center mt-5 bg-light rounded">
-                <li class="nav-item">
-                    <a class="nav-link" href="#overview">簡介</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#background">背景</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#motivation">製作動機</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#differences">與思源黑體的異同</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#download">下載</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#qna">問與答</a>
-                </li>
-            </ul>
-
-            <div class="text-center mt-5">
-                <div class="fa-loading">
-                    <i class="fas fa-spinner fa-spin"></i>
-                </div>
-                <div class="hide-until-meta-loaded text-muted">
-                    最新版本：v<span class="font-current-version"></span>（<span
-                        class="font-release-date"></span>）
+            <div class="hide-until-meta-loaded">
+                <div class="row mt-5 cards">
+                    <div class="col-12 col-lg-4 mb-1">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h5 class="card-title">最新版本
+                                </h5>
+                                <p class="card-text">
+                                    <span class="h1">v<span class="font-current-version"></span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 mb-1">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h5 class="card-title">更新日期</h5>
+                                <p class="card-text h1">
+                                    <span class="font-release-date"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 mb-1">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h5 class="card-title">更改映射/重繪字元數
+                                    <small>
+                                        <a href="#qna-howto"><i class="fas fa-info-circle text-muted""></i></a>
+                                    </small>
+                                </h5>
+                                <p class="card-text h1">
+                                    <span class="remapped-chars-count"></span> / <span
+                                        class="redesigned-chars-count"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -71,7 +121,10 @@
     </div>
 </div>
 
+<a class="anchor" id="preview"></a>
+
 <article class="container">
+
     <div class="card p-4">
         <div id="preview-weight-selector" class="btn-group" role="group" aria-label="Basic example">
             <button type="button" class="btn btn-light" data-weight="100"><span class="d-lg-none">EL</span><span
@@ -97,16 +150,17 @@
     </div>
 
     <p class="note mt-4">
-        ① 本網頁的中文字使用「昭源黑體」網頁字型排版，收字比一般安裝用的 OTF/TTF
-        版少。
+        ① 本網頁的中文字使用「昭源黑體」網頁字型排版（預覽區中的英數字型亦使用昭源黑體），收字比一般安裝用的 OTF/TTF 版少。
         <br/>
         ② 在上面的文字框輸入文字後，瀏覽器或須下載相應的網頁字型字集以作顯示，這會導致額外的數據用量，流動數據網絡使用者務請留意。
         <br/>
-        ③ 本字體提供七種字重，惟礙於瀏覽器限制，網頁暫未能同時提供 Normal 和 Regular
-        字重供測試。
+        ③ 本字體提供 7 種字重，惟礙於瀏覽器限制，網頁暫未能同時提供 Normal 和 Regular
+        字重供預覽。
     </p>
 
-    <div class="section-title text-secondary text-center mt-4" id="overview">
+    <a class="anchor" id="overview"></a>
+
+    <div class="section-title text-secondary text-center mt-4">
         簡介
     </div>
 
@@ -207,7 +261,9 @@
 
     </div>
 
-    <div class="section-title text-secondary text-center mt-5" id="background">
+    <a class="anchor" id="background"></a>
+
+    <div class="section-title text-secondary text-center mt-5">
         背景
     </div>
 
@@ -238,7 +294,9 @@
 
     </div>
 
-    <div class="section-title text-secondary text-center mt-5" id="motivation">
+    <a class="anchor" id="motivation"></a>
+
+    <div class="section-title text-secondary text-center mt-5">
         製作動機
     </div>
 
@@ -272,7 +330,9 @@
             香港」中的香港標準字形和採現代筆形的商用印刷字體字形，提供一個「中間着墨」的開源字體方案。</strong></p>
     </div>
 
-    <div class="section-title text-secondary text-center mt-5" id="differences">
+    <a class="anchor" id="differences"></a>
+
+    <div class="section-title text-secondary text-center mt-5">
         與思源黑體的異同
     </div>
 
@@ -305,7 +365,9 @@
 
     </div>
 
-    <div class="answer mt-5" id="download">
+    <a class="anchor" id="download"></a>
+
+    <div class="answer mt-5">
         <div class="p-4 p-md-5 rounded bg-light">
             <div class="display-4 text-secondary text-left">
                 下載
@@ -334,6 +396,14 @@
             <p class="lead mt-3 text-muted  ">
                 字體使用 <a target="_blank" href="https://scripts.sil.org/OFL_web">SIL Open Font License 版本 1.1 授權</a>，請參看下方<a
                     href="#qna-license">有關此一授權的答問</a>以獲得更多資訊。
+            </p>
+
+            <p class="note">
+                昭源黑體的英數字元跟思源黑體完全相同，即來自 Adobe 的 <a href="https://github.com/adobe-fonts/source-sans-pro" target="_blank">Source
+                Sans Pro</a> 字體。為增加配搭上的靈活性，我將包括 <a href="https://www.google.com/get/noto/" target="_blank">Noto Sans</a>
+                在內的一些英文字體調整成適合與昭源黑體（或思源黑體）配搭的字重（屬試驗性質），如有興趣可到<a href="https://github.com/tamcy/chiron-sans-hk-companion"
+                                                                target="_blank">相關的 Github 儲存庫查看詳情</a>或<a
+                    href="https://github.com/tamcy/chiron-sans-hk-companion/archive/master.zip">按此</a>下載。
             </p>
 
             <div class="lead mt-3">
@@ -379,7 +449,9 @@
         </div>
     </div>
 
-    <div class="section-title text-secondary text-center mt-5" id="qna">
+    <a class="anchor" id="qna"></a>
+
+    <div class="section-title text-secondary text-center mt-5">
         問與答
     </div>
 
@@ -401,6 +473,7 @@
 
     </div>
 
+    <a class="anchor" id="qna-howto"></a>
     <div class="question h4 text-danger mt-4">
         <i class="fal fa-lightbulb-on"></i> 昭源黑體的製作方法是？是否所有字碼都有遵照這款字體的製作方針調整字形？
     </div>
@@ -426,7 +499,7 @@
         </div>
 
         <p>
-            昭源黑體是我在工餘時間製作和維護的字體專案，在人力和時間上都不容許我將「香港字符集」中全部不符本字體製作方針的字形都改成個人屬意的樣式，遑論原字體中「香港版」支援範圍之外、不屬「香港字符集」的字碼。這點還望使用者體諒。假如發現「香港字符集」之內想改、應改而本字體未改的常用字，歡迎提供建議。又上述只是行動大略而不是硬性規定，本字體至今其實也已經有不少非常用字以「重繪字形」方式修改。
+            昭源黑體是我在工餘時間製作和維護的字體專案，在人力和時間上都不容許我將「香港字符集」中全部不符本字體製作方針的字形都改成個人屬意的樣式，遑論原字體中「香港版」支援範圍之外、不屬「香港字符集」的字碼。這點還望使用者體諒。假如發現「香港字符集」之內想改、應改而本字體未改的常用字，歡迎提出。又上述只是行動大略而不是硬性規定，本字體至今其實也已經有不少非常用字以「重繪字形」方式修改。
         </p>
 
         <p>截至 <span class="font-current-version"></span> 版，昭源黑體中有 <span class="remapped-chars-count"></span>
@@ -448,6 +521,8 @@
 
     </div>
 
+    <a class="anchor" id="qna-license"></a>
+
     <div class="question h4 text-danger mt-4" id="qna-license">
         <i class="fal fa-lightbulb-on"></i> 可以這樣將思源黑體修改嗎？使用昭源黑體會不會有侵權疑慮？
     </div>
@@ -460,7 +535,8 @@
         </p>
 
         <p class="note">
-            這裏有關修改思源字體的合法性純屬概括性的説明，略過了應該如何修改以符合 OFL 授權原則的技術性問題（例如須保留原字體版權資訊、修改字體檔內的 Reserved Font Name 之類）。請勿將本文視為第三方修改思源黑體的法律意見。
+            這裏有關修改思源字體的合法性純屬概括性的説明，略過了應該如何修改以符合 OFL 授權原則的技術性問題（例如須保留原字體版權資訊、修改字體檔內的 Reserved Font Name
+            之類）。請勿將本文視為第三方修改思源黑體的法律意見。
         </p>
 
         <p>OFL
@@ -482,7 +558,10 @@
         </ul>
 
         <p>OFL 禁止的主要是明顯損害原作者著作權的行為，例如<a
-                href="https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web#f9c4ccfe" target="_blank">拿 OFL 字體單獨販賣</a>，或只改了字體名稱就當成自己出品等。當然還是那一句，本文不構成任何法律意見，請以<a href="https://scripts.sil.org/cms/scripts/page.php?id=OFL" target="_blank">官方授權原文</a>和<a target="_blank" href="https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web">問答</a>內容為準。
+                href="https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web#f9c4ccfe" target="_blank">拿 OFL
+            字體單獨販賣</a>，或只改了字體名稱就當成自己出品等。當然還是那一句，本文不構成任何法律意見，請以<a
+                href="https://scripts.sil.org/cms/scripts/page.php?id=OFL" target="_blank">官方授權原文</a>和<a target="_blank"
+                                                                                                         href="https://scripts.sil.org/cms/scripts/page.php?item_id=OFL-FAQ_web">問答</a>內容為準。
         </p>
     </div>
 

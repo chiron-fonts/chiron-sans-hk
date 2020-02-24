@@ -139,3 +139,75 @@ p, li {
 li.nav-item {
     font-size: 1.1rem;
 }
+
+/* -- */
+
+.github-corner:hover .octo-arm {
+    animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+    0%, 100% {
+        transform: rotate(0)
+    }
+    20%, 60% {
+        transform: rotate(-25deg)
+    }
+    40%, 80% {
+        transform: rotate(10deg)
+    }
+}
+
+@media (max-width: 500px) {
+    .github-corner:hover .octo-arm {
+        animation: none
+    }
+
+    .github-corner .octo-arm {
+        animation: octocat-wave 560ms ease-in-out
+    }
+}
+
+div.card {
+    position: relative;
+}
+
+div.more {
+    position: absolute;
+    right: 32px;
+    top: 12px;
+    font-size: 18px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -84px;
+    visibility: hidden;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+    font-weight: 400;
+    border-radius: .3rem;
+    font-size: 88%;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover {
+    background-color: #f7f7f7;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.card-title {
+    font-weight: 300;
+    color: #888;
+}
+
+.card-text .h1, .card-text.h1 {
+    color: #555;
+    font-weight: 500;
+}
