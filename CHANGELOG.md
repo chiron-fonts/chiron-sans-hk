@@ -1,3 +1,10 @@
+v2.022 (2020/2/24)
+==========
+- Added U+210AB 𡂫 (⿰口蓬).
+- Adjusted the position of U+6C0F 氏.
+- Redesigned the following 4 characters: 蓬縫釯銻.
+- Redesigned the following 24 characters: 㩋嘯奫婣橚櫹歗淵潚瀟熽璛簫繡肅蕭蠨鏽驌鱐鷫鼘𤄙𤑳.
+
 v2.021 (2020/1/27)
 ==========
 - Redesigned the following 9 characters: 劉擀芩蠄覦鈶鏗飡𤏲.
