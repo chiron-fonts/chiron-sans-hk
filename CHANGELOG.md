@@ -1,3 +1,8 @@
+v2.023 (2020/3/13)
+====
+- Redesigned the following 78 characters: 㝎䍇偝僗匳妎姙姼媕媖媮媱嫛嫳嬐孏寥崟嶮廖戮扲揄梣檎瀏烴焌煒煺爁爟爣爦爨牏獳礝繆膝膠臙薟藜蘞蘦蟉襝謬踰轇醪鉠鉧銎鎏鏊鏖鑌钁隁隃霒霡霫霮霿靀骽麂黐鼹齌𢫏𤃬𩁹𩃬𩅰.
+- Unicode 13.0 was released in 2020/3/10. As the status of the upstream is undetermined, I decided to encode the following CJK Unified Ideographs Extension G characters in Chiron Sans HK: U+3106C 𱁬 (CID+61861), U+30729 𰜩 (CID+61858), U+30EDD 𰻝 (CID+61859) and U+30EDE 𰻞 (CID+61857).
+
 v2.022 (2020/2/24)
 ==========
 - Added U+210AB 𡂫 (⿰口蓬).
