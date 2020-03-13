@@ -1,14 +1,18 @@
 {
-  "version": "2.022",
-  "date": "2020/02/24",
+  "version": "2.023",
+  "date": "2020/03/13",
   "upstream": "2.001",
-  "url": "https://github.com/tamcy/chiron-sans-hk/archive/v2.022.zip",
+  "url": "https://github.com/tamcy/chiron-sans-hk/archive/v2.023.zip",
   "remap_chars": {
     "pdf_size": "28MB",
-    "count": 2721
+    "count": 2704
   },
   "redesign_chars": {
-    "pdf_size": "12MB",
-    "count": 850
+    "pdf_size": "13MB",
+    "count": 928
+  },
+  "new_chars": {
+    "pdf_size": "4MB",
+    "count": 771
   }
 }

@@ -207,7 +207,7 @@
                 <div class="carousel-item">
                     <img src="images/carousel-05.png" class="d-block w-100">
                     <div class="carousel-caption">
-                        <p>不屬「標準差異」但思源黑體以「地區差異」區分者，昭源黑體會在可行情況下選擇設計較佳的版本。如「金」偏旁等「人」部件在頂的字會以日本字形為首選。</p>
+                        <p>不屬「標準差異」但思源黑體以「地區差異」區分者，昭源黑體會盡量選擇設計較佳的版本。如「金」偏旁等「人」部件在頂的字會以日本字形為首選。</p>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -236,7 +236,7 @@
                     <img src="images/carousel-09.png" class="d-block w-100">
                     <div class="carousel-caption">
                         <p>
-                            所有修改字形都提供 7 款字重，不用擔心切換字重後會有字形不一致的情況。
+                            所有修改字形都做齊 7 款字重，提供與思源黑體一致的配搭彈性。
                         </p>
                     </div>
                 </div>
@@ -244,7 +244,7 @@
                     <img src="images/carousel-10.png" class="d-block w-100">
                     <div class="carousel-caption">
                         <p>
-                            增收兩個在香港流行程度不低的粵語用字「𫬷」和「𭉝」。
+                            增收 3 個在香港常用的粵語用字：𡂫、𫬷、𭉝。
                         </p>
                     </div>
                 </div>
@@ -353,6 +353,7 @@
                 碼位，假如應用程式支援，還可通過字檔案中定義的 locl 功能調用符合其他地區寫法的字圖（例如在香港版調用日本版的字形式樣），令每個字重的字圖總數高達 65,535
                 個。昭源黑體完整保留這個版本的碼位覆蓋，不過刪除了以 locl 功能調用其他地區字圖的功能。
             </li>
+            <li>本字體包含一些<a href="#qna-char-additions">思源黑體沒有的收字</a>。</li>
         </ul>
 
         <h2>其他</h2>
@@ -360,7 +361,6 @@
         <ul>
             <li>思源黑體香港版的西文單雙引號（‘、’、“、”）以全形顯示。由於繁體中文環境使用中文款式的單雙引號（「」『』），本字體將西文單雙引號改為半形，方便中英混排。這種做法與思源黑體日、韓版相同。</li>
             <li>由於繁體中文環境不會壓縮全形標點符號，本字體將相關的 halt、vhal、palt、vpal 指令移除，使用排版軟件時不須額外設定。</li>
-            <li>本字體包含一些思源黑體沒有的收字。</li>
         </ul>
 
     </div>
@@ -391,6 +391,14 @@
                 </a>
 
                 <a class="btn btn-outline-secondary btn-lg" href="changelog.html" target="_blank">更新紀錄</a>
+            </div>
+
+            <div class="mt-4 hide-until-meta-loaded small">
+                與思源黑體比較：
+                <a href="files/remapped-chars.pdf" target="_blank">更改對映字元對照表
+                    (<span class="remapped-chars-filesize"></span>)</a> | <a href="files/redesigned-chars.pdf"
+                                                                             target="_blank">重繪字元對照表
+                (<span class="redesigned-chars-filesize"></span>)</a> | <a href="#qna-char-additions">新增字元</a>
             </div>
 
             <p class="lead mt-3 text-muted  ">
@@ -521,9 +529,39 @@
 
     </div>
 
+    <a class="anchor" id="qna-char-additions"></a>
+
+    <div class="question h4 text-danger mt-4">
+        <i class="fal fa-lightbulb-on"></i> 昭源黑體有哪些原版思源黑體所無的新造字？
+    </div>
+
+    <div class="answer">
+
+        <p>
+            昭源黑體有 3 個香港常見但思源黑體不收的「穩定增收字」：
+        </p>
+
+        <ul>
+            <li><strong>𡂫</strong> (U+210AB)，屬 CJK Unified Ideographs Extension B 字元，在 2.022 版新增。</li>
+            <li><strong>𫬷</strong> (U+2BB37)，屬 CJK Unified Ideographs Extension E 字元，在 2.021 版新增。</li>
+            <li><strong>𭉝</strong> (U+2D25D)，屬 CJK Unified Ideographs Extension F 字元，在 2.019 版新增。</li>
+        </ul>
+
+        <p>
+            這三字不在香港增補字符集之內，所以思源黑體沒有支援（我已向有關方面提交增收申請，假如成功便可再向思源黑體提交新增請求）。除此之外，昭源黑體還有 <span class="new-chars-count"></span>
+            個思源黑體沒有的收字。這些新收字來源不一，有些是因個人需要而做，有些是在網上看到而試做，又有些是受委託製作（目前本字體不接受個別加字要求，除非該字是如「𡂫、𫬷、𭉝」一類香港常用字）。與前述三字不同的是，這些不屬香港常用字，亦暫未算是昭源黑體的<u>穩定</u>新收字，也就是說其收錄情況在之後版本可能會有改動。如有興趣，可循下方連結下載新增字元列表的
+            PDF 檔案參考。
+        </p>
+
+        <p class="download-row text-center hide-until-meta-loaded">
+            <a href="files/character-additions.pdf" class="btn btn-lg btn-outline-secondary" target="_blank">「昭源黑體」新增字元列表
+                (<span class="new-chars-filesize"></span>)</a>
+        </p>
+    </div>
+
     <a class="anchor" id="qna-license"></a>
 
-    <div class="question h4 text-danger mt-4" id="qna-license">
+    <div class="question h4 text-danger mt-4">
         <i class="fal fa-lightbulb-on"></i> 可以這樣將思源黑體修改嗎？使用昭源黑體會不會有侵權疑慮？
     </div>
 
@@ -598,7 +636,6 @@
         </ul>
     </div>
 
-
 </article>
 
 
@@ -635,8 +672,10 @@
             $('.font-upstream-version').text(data['upstream']);
             $('.font-release-date').text(data['date']);
             $('.remapped-chars-filesize').text(data['remap_chars']['pdf_size']);
+            $('.new-chars-filesize').text(data['new_chars']['pdf_size']);
             $('.redesigned-chars-filesize').text(data['redesign_chars']['pdf_size']);
             $('.remapped-chars-count').text((data['remap_chars']['count']).toLocaleString());
+            $('.new-chars-count').text((data['new_chars']['count'] - 3).toLocaleString());
             $('.redesigned-chars-count').text((data['redesign_chars']['count']).toLocaleString());
             $('.redesigned-glyphs-count').text((data['redesign_chars']['count'] * 7).toLocaleString());
 
