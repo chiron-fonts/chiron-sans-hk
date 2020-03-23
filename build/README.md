@@ -33,7 +33,7 @@ webfont
 
 The `webfont` directory contains the webfont build (in `WOFF2` format) of Chiron Sans HK. Its name is **Chiron Sans HK WS**.
 
-The webfont build includes 28,754 codepoints. All characters in the Big5 and HKSCS character sets are covered, in addition to those found in the KangXi dictionary and characters that are exclusive to written Cantonese. As the webfont targets Traditional Chinese usages, Simplified Chinese characters, Hangul etc. are NOT included.
+The webfont build includes 28,760 codepoints. All characters in the Big5 and HKSCS character sets are covered, in addition to those found in the KangXi dictionary and characters that are exclusive to written Cantonese. As the webfont targets Traditional Chinese usages, Simplified Chinese characters, Hangul etc. are NOT included.
 
 [Unicode-range subsetting](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization#unicode-range_subsetting) is employed to improve performance. Instead of serving one single and large WOFF2 file, the font is broken into smaller pieces, resulting in around 140 tiny subset files per weight (most of them are less than 50KB). The codepoints covered by each file are defined using the `unicode-range` CSS descriptor to instruct supported browsers to only download the subset files containing codepoints that are actually used in a page. The result is a much smaller download size in general.
 
@@ -47,7 +47,7 @@ Due to the limitations of CSS support in existing browsers, the same font weight
 
 `webfont` 目錄內載有昭源黑體的網頁字型版 **Chiron Sans HK WS**，以 `WOFF2` 格式封裝。
 
-網頁字型是 OTF 檔的子集版，包含 28,754 個字元，涵蓋整個 Big5/HKSCS 字集，其餘為《康熙字典》字頭、粵語專用字等。網頁字型針對繁體中文用途，沒有收錄簡體中文、諺文等文字。
+網頁字型是 OTF 檔的子集版，包含 28,760 個字元，涵蓋整個 Big5/HKSCS 字集，其餘為《康熙字典》字頭、粵語專用字等。網頁字型針對繁體中文用途，沒有收錄簡體中文、諺文等文字。
 
 為改善效能，字型採用了 [Unicode-range subsetting](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization#unicode-range_subsetting) 技術，將每個字重的單一字型檔拆分成大約 140 個細小檔案（多數檔案小於 50KB，非常用字子集小於 150KB），並在 CSS 指明該檔案所涵蓋的字碼。瀏覽器只會在網頁有用到該字碼時才會載入相關字型檔。這樣做的好處是大大減低須下載字型檔案的大小。收字方式如下：
 
