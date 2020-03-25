@@ -54,6 +54,9 @@
                 <a class="nav-link" href="#download"><strong>下載</strong></a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="#webfont-cdn">網頁字型 CDN</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#qna">問與答</a>
             </li>
         </ul>
@@ -457,6 +460,59 @@
         </div>
     </div>
 
+    <a class="anchor" id="webfont-cdn"></a>
+
+    <div class="section-title text-secondary text-center mt-5">
+        網頁字型 CDN
+    </div>
+
+    <div class="answer">
+
+        <p>網站開發人員如想使用昭源黑體作為網頁字型 webfont，除了下載檔案作自行託管 self-hosting 外，另一個選擇是使用 <a href="https://www.jsdelivr.com/">jsDelivr</a>
+            提供的免費 CDN 服務。只須複製下面載入有關字重 stylesheet 的 <code>&lt;link&gt;</code> 標籤到網頁，再指定 font-family 為 <code>Chiron Sans
+                HK
+                WS</code> 即可。</p>
+
+        <div class="bg-light p-4 mb-4">
+            <code>
+                &lt;link rel="stylesheet"
+                href="https://cdn.jsdelivr.net/gh/tamcy/chiron-sans-hk@<span class="font-current-version"></span>/build/webfont/css/ExtraLight.css"/&gt;
+                <br/>
+                &lt;link rel="stylesheet"
+                href="https://cdn.jsdelivr.net/gh/tamcy/chiron-sans-hk@<span class="font-current-version"></span>/build/webfont/css/Light.css"/&gt;
+                <br/>
+                &lt;link rel="stylesheet"
+                href="https://cdn.jsdelivr.net/gh/tamcy/chiron-sans-hk@<span class="font-current-version"></span>/build/webfont/css/Normal.css"/&gt;
+                <br/>
+                &lt;link rel="stylesheet"
+                href="https://cdn.jsdelivr.net/gh/tamcy/chiron-sans-hk@<span class="font-current-version"></span>/build/webfont/css/Regular.css"/&gt;
+                <br/>
+                &lt;link rel="stylesheet"
+                href="https://cdn.jsdelivr.net/gh/tamcy/chiron-sans-hk@<span class="font-current-version"></span>/build/webfont/css/Medium.css"/&gt;
+                <br/>
+                &lt;link rel="stylesheet"
+                href="https://cdn.jsdelivr.net/gh/tamcy/chiron-sans-hk@<span class="font-current-version"></span>/build/webfont/css/Bold.css"/&gt;
+                <br/>
+                &lt;link rel="stylesheet"
+                href="https://cdn.jsdelivr.net/gh/tamcy/chiron-sans-hk@<span class="font-current-version"></span>/build/webfont/css/Heavy.css"/&gt;
+            </code>
+        </div>
+
+        <p>注意事項：</p>
+        <ol>
+            <li>如果將上述網址中用來指定版本的 <code>@<span class="font-current-version"></span></code>
+                刪除，就可以一直載入最新版本。不過，網頁字型的目錄結構在之後的版本可能會有變更，導致網站使用的字型突吿失效。因此仍建議指定版本，有新版本時再手動更新。
+            </li>
+            <li>由於 Normal 和 Regular 的字重數字均設定為 400，同一頁面不能同時使用這兩種字重（這做法與 Google Fonts 相同。Typekit 則將 Normal
+                設為 300，再將 Light 和 ExtraLight 字重遞減為 200 和 100。不過這恐怕會導致與其他英文字體配合使用時，字重 100-300 的視覺差異太太）。
+            </li>
+            <li>有關 webfont 收錄字數、範圍、格式等技術資訊，請參閱 <a href="https://github.com/tamcy/chiron-sans-hk/tree/master/build"
+                                                  target="_blank">Github 專案頁 build/ 目錄中的 README 檔案</a>。
+            </li>
+            <li>免費 CDN 服務由 jsDelivr 提供，本字體作者無法對此服務的穩定性或速度等問題提供任何協助。</li>
+        </ol>
+    </div>
+
     <a class="anchor" id="qna"></a>
 
     <div class="section-title text-secondary text-center mt-5">
@@ -506,7 +562,8 @@
         </div>
 
         <p>
-            更改映射容易，重繪字形則須較多人力和時間（重畫 1 個字其實牽涉 7 個字重）。在製作初期，假如其他地區沒有合適的字形，只有常用字會進行字形重繪，其餘則會以其他地區的相近字形代替或保留不動。後來，重繪字形工序逐漸擴展至次常用字以至非常用字，至今所覆蓋字碼相信已能滿足日常需要。畢竟昭源黑體是我在工餘時間製作和維護的字體專案，在人力和時間上都不容許我將「香港字符集」中所有不符本字體製作方針的字形都改成個人屬意的樣式，遑論原字體中「香港版」支援範圍之外、不屬「香港字符集」的字碼，這點還望使用者體諒。假如發現「香港字符集」之內想改、應改而本字體未改的常用字，歡迎提出。
+            更改映射容易，重繪字形則須較多人力和時間（重畫 1 個字其實牽涉 7
+            個字重）。在製作初期，假如其他地區沒有合適的字形，只有常用字會進行字形重繪，其餘則會以其他地區的相近字形代替或保留不動。後來，重繪字形工序逐漸擴展至次常用字以至非常用字，至今所覆蓋字碼相信已能滿足日常需要。畢竟昭源黑體是我在工餘時間製作和維護的字體專案，在人力和時間上都不容許我將「香港字符集」中所有不符本字體製作方針的字形都改成個人屬意的樣式，遑論原字體中「香港版」支援範圍之外、不屬「香港字符集」的字碼，這點還望使用者體諒。假如發現「香港字符集」之內想改、應改而本字體未改的常用字，歡迎提出。
         </p>
 
         <p>截至 <span class="font-current-version"></span> 版，昭源黑體中有 <span class="remapped-chars-count"></span>
@@ -547,8 +604,9 @@
         </ul>
 
         <p>
-            這三字不在香港增補字符集之內，所以思源黑體沒有支援（我已向有關方面提交增收申請，假如成功便可再向思源黑體提交新增請求）。除此之外，昭源黑體還有 <span class="new-chars-count"></span>
-            個思源黑體沒有的收字。這些新收字來源不一，有些是因個人需要而做，有些是在網上看到而試做，又有些是受委託製作（目前本字體不接受個別加字要求，除非該字是如「𡂫、𫬷、𭉝」一類香港常用字）。與前述三字不同的是，這些不屬香港常用字，亦暫未算是昭源黑體的<u>穩定</u>新收字，也就是說其收錄情況在之後版本可能會有改動，其增刪也不會另外說明。如有興趣，可循下方連結下載新增字元列表的
+            這三字不在香港增補字符集之內，所以思源黑體沒有支援（我已向有關方面提交增收申請，假如成功便可再向思源黑體提交新增請求）。除此之外，昭源黑體還有 <span
+                class="new-chars-count"></span>
+            個思源黑體沒有的收字。這些新收字來源不一，有些是因個人需要而做，有些是在網上看到而試做，又有些是受委託製作（目前本字體不接受個別加字要求，除非該字是如「𡂫、𫬷、𭉝」一類香港常用字）。與前述三字不同的是，這些不屬香港常用字，亦暫未算是昭源黑體的<u>穩定</u>新收字，也就是説其收錄情況在之後版本可能會有改動，其增刪也不會另外説明。如有興趣，可循下方連結下載新增字元列表的
             PDF 檔案參考。
         </p>
 
