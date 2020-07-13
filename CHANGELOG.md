@@ -1,3 +1,8 @@
+v2.026 (2020/7/13)
+====
+- Redesigned the following 38 characters: 棜爗癟篲簆籑膰膴臕芘芮苶蕧薿藇藨談閼馤鬠鷋麌齘龤䤬䥇䥈䬪䬳䬴䭅䭣鋵飤飿餁餄餏.
+- Added U+301DB 𰇛 (⿰口伏).
+
 v2.025 (2020/5/10)
 ====
 - Redesigned the following 38 characters: 㖸㗘㘛㜮㤉㧁㨑㪐㽎䁯䃗䇶䖙䠡䢍䢢䯋吂塠揬桊炣烌眡砛肨胮胿膁膎膭𠹷𡢃𤉙𤌍𥔱𦻐𨃩.
