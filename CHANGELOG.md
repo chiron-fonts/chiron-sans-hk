@@ -1,3 +1,9 @@
+v2.027 (2020/??/??)
+====
+- Redesigned 驟. This character has been incorrectly remapped to C source, and the correct T/H source is of subpar quality.
+- Remapped the following 11 characters to J source: 劚囑墀屬斸樨爥犀矚穉钃.
+- Redesigned the following 26 characters: 䙱䠱噑孎徲摨曍橰欘灟獋獔翶翺蠾遲𡲬㜳壞懷櫰瀤瓌蘹蘾褱.
+
 v2.026 (2020/7/13)
 ====
 - Redesigned the following 38 characters: 棜爗癟篲簆籑膰膴臕芘芮苶蕧薿藇藨談閼馤鬠鷋麌齘龤䤬䥇䥈䬪䬳䬴䭅䭣鋵飤飿餁餄餏.
@@ -88,7 +94,7 @@ v2.011 (2019/4/18)
 v2.010 (2019/4/11)
 ==========
 - Based on Source Han Sans 2.001.
-- **BC BREAK**: Retracted the decision to incorporate a specialized version of Noto Sans into the font to simply the build process. The font is still available at https://github.com/tamcy/chiron-sans-hk-companion.
+- **BC BREAK**: Retracted the decision to incorporate a specialized version of Noto Sans into the font to simplify the build process. The font is still available at https://github.com/tamcy/chiron-sans-hk-companion.
 - About 400 codepoints are added, mainly for @ktshek aka @jyutnet. They are included in this build to not over complicate the build process, and to hope that they will be useful to someone else.
 
 v2.003 (2019/2/15)
