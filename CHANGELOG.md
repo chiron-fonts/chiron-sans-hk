@@ -1,4 +1,4 @@
-v2.027 (2020/08/01)
+v2.027 (2020/8/1)
 ====
 - Redesigned 驟. This character has been incorrectly remapped to C source, and the correct T/H source is of subpar quality.
 - Remapped the following 11 characters to J source: 劚囑墀屬斸樨爥犀矚穉钃.
