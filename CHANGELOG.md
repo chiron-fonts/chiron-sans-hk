@@ -1,3 +1,7 @@
+v2.028 (2020/10/13)
+====
+- Enhanced the design of the following 4 characters: 準徹轍底.
+
 v2.027 (2020/8/1)
 ====
 - Redesigned 驟. This character has been incorrectly remapped to C source, and the correct T/H source is of subpar quality.
