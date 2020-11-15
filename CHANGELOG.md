@@ -1,3 +1,10 @@
+v2.029 (2020/11/15)
+====
+- Upstream version updated to Source Han Sans 2.002.
+- Removed the redesign glyph of 準 - the upstream version can now be used.
+- Remapped the following 18 characters to J source: 齒齓齕齗齘齚齞齟齠齣齧齪齫齬齮齯齰齺.
+- Redesigned the following 25 characters: 㟻冚函喦岔峹嶞嶨巒幽菡齔齖齙齛齜齝齡齦齩齱齲齵齶齷.
+
 v2.028 (2020/10/13)
 ====
 - Enhanced the design of the following 4 characters: 準徹轍底.
