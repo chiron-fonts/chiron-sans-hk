@@ -1,3 +1,9 @@
+v2.030 (2020/11/16)
+====
+- Fix: upstream of TTF version not correctly updated to Source Han Sans 2.002 in v2.029.
+- Fix: enhanced design of 徹轍底 mistakenly removed in v2.029.
+- Redesigned the following 10 characters: 凼密岙峊窋蔤𩓥𪘁𪘲𪙛.
+
 v2.029 (2020/11/15)
 ====
 - Upstream version updated to Source Han Sans 2.002.
