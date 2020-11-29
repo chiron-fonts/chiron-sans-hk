@@ -1,3 +1,7 @@
+v2.031 (2020/11/30)
+====
+- Redesigned the following 102 characters: 剼參墋嵾幓慘摻槮毿滲磣穇篸糝縿蔘襂贂鏒驂鬖鰺黲窑窰繇罄罋颻懩攁瀁癢養䚗姹𠵈𡡅毼煐熥熸燵爉筶篚膍䴇蕶虂惀睔蜦彾昤朎狑秢駖魿梌溆蒢鵌睮羭腧褕貐蚙鯩祄菳鈖鈗鉖鉡鉾鋑錂錆鍄鍈鍏鍗鎄鎕鏧鏱㸆巆烻焢煄煼熳爞磱𤎌𤒹峠糀.
+
 v2.030 (2020/11/16)
 ====
 - Fix: upstream of TTF version not correctly updated to Source Han Sans 2.002 in v2.029.
