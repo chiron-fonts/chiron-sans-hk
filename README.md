@@ -1,8 +1,8 @@
 Chiron Sans HK (昭源黑體)
 =========================
 
- * [主網頁](https://tamcy.github.io/chiron-sans-hk/)（含中文簡介、詳細説明）
- * 或直接前往 [Releases](https://github.com/tamcy/chiron-sans-hk/releases) 頁下載。
+ * [主網頁](https://chiron-fonts.github.io/chiron-sans-hk/)（含中文簡介、詳細説明）
+ * 或直接前往 [Releases](https://github.com/chiron-fonts/chiron-sans-hk/releases) 頁下載。
 
 ## About
 
@@ -16,13 +16,13 @@ The glyphs depicted in this document are of no doubt more suitable for Hong Kong
 
 Based on the Traditional Chinese (Hong Kong) variant of Source Han Sans, **Chiron Sans HK** took references from successful commercial Traditional Chinese font products (widely used in printed materials in Hong Kong) to provide an orthographic variant that is more aesthetically pleasing, and which Hong Kong people are generally more familiar with.
 
-More information is available in the [Chinese website](https://tamcy.github.io/chiron-sans-hk/), which is mainly typesetted in the webfont build of Chiron Sans HK.
+More information is available in the [Chinese website](https://chiron-fonts.github.io/chiron-sans-hk/), which is mainly typesetted in the webfont build of Chiron Sans HK.
 
 ## Download
 
 Installable font resources (OTFs, TTFs) and webfonts can be found under the [build](build/) directory.
 
-Visit the [Release](https://github.com/tamcy/chiron-sans-hk/releases) page for the whole font family of 7 weights in a single archive (in .zip or .tar.gz), version histories and PDF documents of character additions, modifications and remappings.
+Visit the [Release](https://github.com/chiron-fonts/chiron-sans-hk/releases) page for the whole font family of 7 weights in a single archive (in .zip or .tar.gz), version histories and PDF documents of character additions, modifications and remappings.
 
 ## License
 
