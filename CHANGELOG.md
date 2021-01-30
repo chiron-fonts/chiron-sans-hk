@@ -1,3 +1,10 @@
+v2.032 (2021/01/30)
+====
+- Corrected the mapping of 鵳.
+- Corrected the shape of 𥹉.
+- Redesigned the following 10 characters: 釨釮釴鉘銆鏍鏎鏔鏕鐉.
+- Set the em-box aligned version of the following characters to be the default: U+2E3A (⸺), U+2E3B (⸻), U+203C (‼), U+2047 (⁇), U+2048 (⁈), and U+2049 (⁉).
+  
 v2.031 (2020/11/30)
 ====
 - Redesigned the following 102 characters: 剼參墋嵾幓慘摻槮毿滲磣穇篸糝縿蔘襂贂鏒驂鬖鰺黲窑窰繇罄罋颻懩攁瀁癢養䚗姹𠵈𡡅毼煐熥熸燵爉筶篚膍䴇蕶虂惀睔蜦彾昤朎狑秢駖魿梌溆蒢鵌睮羭腧褕貐蚙鯩祄菳鈖鈗鉖鉡鉾鋑錂錆鍄鍈鍏鍗鎄鎕鏧鏱㸆巆烻焢煄煼熳爞磱𤎌𤒹峠糀.
