@@ -1,6 +1,6 @@
 {
     "name": "chiron-sans-hk-webfont",
-    "version": "0.2.0",
+    "version": "2.33.0",
     "description": "Webfont version of Chiron Sans HK, a font specialized for Traditional Chinese environment.",
     "keywords": [
         "Traditional Chinese",
@@ -10,7 +10,7 @@
         "sans-serif",
         "woff2"
     ],
-    "homepage": "https://chiron-fonts.github.io/chiron-sans-hk",
+    "homepage": "https://chiron-fonts.github.io/sans",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
