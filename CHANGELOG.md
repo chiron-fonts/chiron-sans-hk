@@ -1,3 +1,10 @@
+v2.034 (2021/03/17)
+====
+- Fixed the design of 瓊 (U+74CA), it is now mapped to the alternate JP glyph.
+- Redesigned the following 7 characters: 幠菕鑗鑶龲𨰣𩸽.
+- The following 38 characters are now using the design in Source Han Sans V1: 吙嗧埮悐晱栺梑瀱炋烒烳焟焨焺焻煂煔煰熁熂熼燆燨爅爏爧竼笁笚笝龦𠐔𠴲𢅺𤅗𧅥𩡗𩸭.
+- As most browsers now support the latest `font-weight` syntax which allows arbitrary numeric `font-weight` value between 1 and 1000, the `font-weight` value for Normal in the webfont build is changed to 370.  
+
 v2.033 (2021/02/28)
 ====
 - Tweaked the design of 譽.
