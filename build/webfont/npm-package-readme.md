@@ -45,13 +45,11 @@ Please refer to the following table for the CSS `font-weight` values of differen
 |---|---|
 | ExtraLight | 100 |
 | Light | 300 |
-| Normal | 400 |
+| Normal | 370 |
 | Regular | 400 |
 | Medium | 500 |
 | Bold | 700 |
 | Heavy | 900 |
-
-Note that the CSS font weight value of _Normal_ and _Regular_ are identical, so you can only use either one on a webpage.
 
 ## License
 
