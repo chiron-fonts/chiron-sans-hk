@@ -1,7 +1,7 @@
 Chiron Sans HK (昭源黑體)
 =========================
 
- * [主網頁](https://chiron-fonts.github.io/chiron-sans-hk/)（含中文簡介、詳細説明）
+ * [主網頁](https://chiron-fonts.github.io/sans/)（含中文簡介、詳細説明）
  * 或直接前往 [Releases](https://github.com/chiron-fonts/chiron-sans-hk/releases) 頁下載。
 
 ## About
@@ -22,7 +22,7 @@ More information is available in the [Chinese website](https://chiron-fonts.gith
 
 Installable font resources (OTFs, TTFs) and webfonts can be found under the [build](build/) directory.
 
-Visit the [Release](https://github.com/chiron-fonts/chiron-sans-hk/releases) page for the whole font family of 7 weights in a single archive (in .zip or .tar.gz), version histories and PDF documents of character additions, modifications and remappings.
+Visit the [Release](https://github.com/chiron-fonts/chiron-sans-hk/releases) page to download the whole font family in a single archive (in .zip or .tar.gz). You can also find version histories and PDF documents of character additions, modifications and remappings in this page.
 
 ## License
 

@@ -1,4 +1,4 @@
-Installable font resources and webfont files can be found under their corresponding directories.
+Installable font resources and webfont files can be found in their corresponding directories.
 
 本目錄包含可安裝的桌面字型和網頁字型。
 
@@ -7,11 +7,26 @@ otf
 
 This directory contains the OpenType/CFF (OTF) font resources in seven weights.
 
-This is the recommended configuration.
+The font family name for this configuration is **Chiron Sans HK**. This is the recommended configuration.
 
 本目錄包含七個字重的 OpenType/CFF (OTF) 格式字型。
 
-建議一般使用。
+安裝後的字型名稱是 **Chiron Sans HK**。建議一般使用。
+
+variable
+========
+
+This directory contains the OpenType/CFF2 (OTF) variable font resource. Instead of choosing from seven static instances, users can now select a font weight at any point between the ExtraLight and Heavy instances in supported applications.
+
+The font family name for this configuration is **Chiron Sans HK VF**. 
+
+Note that this configuration requires a system and/or application that supports OpenType/CFF2 variable font format.
+
+本目錄包含 OpenType/CFF2 (OTF) 可變式字型 (Variable Font)。跟 OTF 版本分成七個固定字重不同，可變字型將所有字重收入一個檔案，使用者可透過應用程式的字重軸任意揀選 ExtraLight 和 Heavy 之間的字重值。
+
+安裝後的字體名稱是 **Chiron Sans HK VF**。
+
+留意必須在支援可變式字型的作業系統或應用程式中使用。
 
 ttf
 ===
@@ -31,19 +46,17 @@ Note that TTF fonts are meant to be an interim solution to the aforementioned co
 webfont
 =======
 
-The `webfont` directory contains the webfont build (in `WOFF2` format) of Chiron Sans HK. The family name of this configuration is **Chiron Sans HK WS**. To start using it, copy the `webfont/css` and `webfont/woff2` directories to your project location and include the corresponding CSS files.
+The `webfont` directory contains the webfont build (in `WOFF2` format) of Chiron Sans HK VF. The family name of this configuration is **Chiron Sans HK WS**. To start using it, copy the `webfont/css` and `webfont/woff2` directories to your project location and include the corresponding CSS file. The webfont build is now available in variable font format, so you just need to include a single CSS file to access all possible font weights.
 
 This webfont is a subsetted version of the original OTF configuration. It covers all characters in the Big5 and HKSCS character sets. In addition, characters that are found in the KangXi dictionary and exclusive to written Cantonese are included. As the webfont targets Traditional Chinese usages, Simplified Chinese characters, Hangul etc. are excluded from the build.
 
-The webfont is optimized with [Unicode-range subsetting](https://web.dev/reduce-webfont-size/#unicode-range-subsetting). The font is broken into smaller pieces, resulting in around 140 tiny subset files per weight (most of them are less than 50KB). Instead of downloading one single and large font file, the browser only needs to download the subset files that contain the glyphs required for rendering the text on a page.
+The webfont is optimized with [Unicode-range subsetting](https://web.dev/reduce-webfont-size/#unicode-range-subsetting). The font is broken into smaller pieces, resulting in around 140 tiny subset files per weight. Instead of downloading one single and large font file, the browser only needs to download the subset files that contain the glyphs required for rendering the text on a page.
 
 The subsetting strategy mostly follows the one employed by Google Font's [Noto Sans HK](https://fonts.google.com/specimen/Noto+Sans+HK), with Simplified Chinese characters excluded.
 
-Two sets of CSS files are available, namely `[font_weight].css` and `[font_weight]_fb.css`. The one with `_fb` suffix tries to use the locally installed *Chiron Sans HK* first, with the webfont version acted as a fallback. This means no webfont downloading if the OTF version of the font is already installed on user's device. The webfont version will always be served when `[font_weight].css` is used.
+For usage example, please check the HTML file in the `webfont/demo` directory which prints all supported characters on a single page.
 
-For usage example, please check the HTML files named after each font weight in the `webfont/demo` directory which prints all supported characters on a single page.
-
-`webfont` 目錄內載有昭源黑體的網頁字型版 **Chiron Sans HK WS**，以 `WOFF2` 格式封裝。將 `webfont/css` 和 `webfont/woff2` 目錄複裝到你的專案位置然後載入相關的 CSS 檔就即可使用。
+`webfont` 目錄內載有昭源黑體的網頁字型版 **Chiron Sans HK WS**，以 `WOFF2` 格式封裝。將 `webfont/css` 和 `webfont/woff2` 目錄複裝到你的專案位置然後載入相關的 CSS 檔就即可使用。網頁字型以「可變式字型」格式提供，只須載入一個 CSS 檔案就可以用到全部字重。
 
 網頁字型是 OTF 檔的子集版，涵蓋整個 Big5/HKSCS 字集，其餘為《康熙字典》字頭、粵語專用字等。網頁字型針對繁體中文用途，沒有收錄簡體中文、諺文等文字。
 
@@ -53,6 +66,4 @@ For usage example, please check the HTML files named after each font weight in t
 2. 本網頁字型會補上一些香港常用字符。
 3. 最後，補充 Big5/HKSCS 字集和字集外、本字體有收的非常用漢字（多屬《康熙字典》字頭，也有一些粵語用字）。雖然為數不少，但由於採用了 Unicode-range subsetting，加入這些字符對一般使用者相信影響不大。
 
-目錄內提供的 CSS 檔可分為兩種，分別是`[字重].css` 和 `[字重]_fb.css`。有 `_fb` 的版本會優先使用使用者系統中安裝的昭源黑體，假如使用者安裝了昭源黑體，就不會再下載網頁字型檔。`[字重].css` 則只會使用網頁字型。
-
-目錄內另包含以字重命名的 HTML 檔案，會印出所有網頁字型的覆蓋字元，作為應用示範。
+`webfont/demo` 目錄內包含一 HTML 檔，會印出所有網頁字型的覆蓋字元，作為應用示範。

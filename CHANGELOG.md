@@ -1,3 +1,10 @@
+v2.035 (2021/XX/XX)
+====
+- Upstream version updated to Source Han Sans 2.003. Notice: the scale of glyphs in the intermediate weights (Light, Normal, Regular, Medium, Bold) has been adjusted slightly because of the building pipeline change in Source Han Sans to support the new variable font format.
+- A new variable font format is added. The font name for this configuration is **Chiron Sans HK VF**. There are some known issues in the upstream, so treat it as a preview.
+- The web font configuration is provided in variable font format, with multiple weights in a single file. It is now possible for designers to specify arbitrary font weight value. The font weight numbers have been adjusted to match Source Han Sans VF. Finally, the CSS files which local installed font resources take precedence are now removed.
+- Redesigned the following 20 characters: 㔆㚬㶴㷇䓎䖅奿娛媁嫾岺撍栾焲熩爤豅𢲷𨥉𪊲.
+
 v2.034 (2021/03/17)
 ====
 - Fixed the design of 瓊 (U+74CA), it is now mapped to the alternate JP glyph.
