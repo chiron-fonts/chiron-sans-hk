@@ -1,9 +1,12 @@
-v2.035 (2021/XX/XX)
+v2.035 (2021/04/15)
 ====
 - Upstream version updated to Source Han Sans 2.003. Notice: the scale of glyphs in the intermediate weights (Light, Normal, Regular, Medium, Bold) has been adjusted slightly because of the building pipeline change in Source Han Sans to support the new variable font format.
-- A new variable font format is added. The font name for this configuration is **Chiron Sans HK VF**. There are some known issues in the upstream, so treat it as a preview.
-- The web font configuration is provided in variable font format, with multiple weights in a single file. It is now possible for designers to specify arbitrary font weight value. The font weight numbers have been adjusted to match Source Han Sans VF. Finally, the CSS files which local installed font resources take precedence are now removed.
+- Added a new variable font (VF) configuration. The font name for this configuration is **Chiron Sans HK VF**.
+- The web font configuration is now in variable font format. All weights are contained in a single file. It is now possible for designers to specify arbitrary font weight values. The font weight numbers have been adjusted to match Source Han Sans VF. Finally, the CSS files which local installed font resources take precedence are now removed.
 - Redesigned the following 20 characters: 㔆㚬㶴㷇䓎䖅奿娛媁嫾岺撍栾焲熩爤豅𢲷𨥉𪊲.
+
+Remarks: There are a few known issues in the VF version of Source Han Sans v2.003 which also affects Chiron Sans HK VF. I decided to roll a new release that includes the VF variant because I believe the webfont VF configuration is a worthy update. It feels strange when a release only contains a WOFF2 VF but no desktop version, so a desktop OpenType/CFF2 variable font is also included anyway.
+
 
 v2.034 (2021/03/17)
 ====
