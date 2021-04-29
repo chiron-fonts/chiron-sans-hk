@@ -1,3 +1,7 @@
+v2.040 (2021/04/29)
+====
+- Upstream version updated to Source Han Sans 2.004. Fixed instance names not showing correctly in variable OTF.
+
 v2.035 (2021/04/15)
 ====
 - Upstream version updated to Source Han Sans 2.003. Notice: the scale of glyphs in the intermediate weights (Light, Normal, Regular, Medium, Bold) has been adjusted slightly because of the building pipeline change in Source Han Sans to support the new variable font format.
