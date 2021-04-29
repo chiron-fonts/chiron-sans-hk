@@ -1,6 +1,7 @@
 v2.040 (2021/04/29)
 ====
 - Upstream version updated to Source Han Sans 2.004. Fixed instance names not showing correctly in variable OTF.
+- Restored the design fix of 瓊 (U+74CA). The fix was inadvertently reverted in the previous version.
 
 v2.035 (2021/04/15)
 ====
