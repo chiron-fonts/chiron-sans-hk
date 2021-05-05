@@ -18,7 +18,7 @@ Based on the Traditional Chinese (Hong Kong) variant of Source Han Sans, **Chiro
 
 A [Pro version](https://github.com/chiron-fonts/chiron-sans-hk-pro) of the font, which integrates the full glyph set of Adobe’s [Souce Sans 3](https://github.com/adobe-fonts/source-sans), is also available.
 
-Please visit the [main website](https://chiron-fonts.github.io/chiron-sans-hk/)(in Chinese) for more information and an online preview. The website is typesetted using the webfont build of Chiron Sans HK Pro, and there is a online preview function for you to test the font out with your desired text.
+Please visit the [main website](https://chiron-fonts.github.io/chiron-sans-hk/) (in Chinese) for more information. The website is typesetted using the webfont build of Chiron Sans HK Pro, and there is a online preview function for you to test the font out with your desired text.
 
 ## Download
 
