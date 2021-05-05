@@ -16,15 +16,15 @@ The font family name for this configuration is **Chiron Sans HK**. This is the r
 variable
 ========
 
-This directory contains the OpenType/CFF2 (OTF) variable font resource. Instead of choosing from seven static instances, users can now select a font weight at any point between the ExtraLight and Heavy instances in supported applications.
+This directory contains the OpenType/CFF2 (OTF) variable font resource. The entire font family is stored in a single file. Instead of choosing from seven static instances, users can now select a font weight at any point between the ExtraLight and Heavy instances in supported applications.
 
-The font family name for this configuration is **Chiron Sans HK VF**. 
+The font family name for this configuration is **Chiron Sans HK VF**. It can be installed alongside the static OTF configuration.
 
 Note that this configuration requires a system and/or application that supports OpenType/CFF2 variable font format.
 
-本目錄包含 OpenType/CFF2 (OTF) 可變式字型 (Variable Font)。跟 OTF 版本分成七個固定字重不同，可變字型將所有字重收入一個檔案，使用者可透過應用程式的字重軸任意揀選 ExtraLight 和 Heavy 之間的字重值。
+本目錄包含 OpenType/CFF2 (OTF) 可變式字型 (Variable Font)。跟 OTF 版本分成七個固定字重不同，可變字型格式將整個字型家族收入單一檔案，使用者可透過應用程式的字重軸任意揀選 ExtraLight 和 Heavy 之間的字重值。
 
-安裝後的字體名稱是 **Chiron Sans HK VF**。
+安裝後的字體名稱是 **Chiron Sans HK VF**，可與固定字重 OTF 版本同時安裝。
 
 留意必須在支援可變式字型的作業系統或應用程式中使用。
 
@@ -60,7 +60,7 @@ For usage example, please check the HTML file in the `webfont/demo` directory wh
 
 網頁字型是 OTF 檔的子集版，涵蓋整個 Big5/HKSCS 字集，其餘為《康熙字典》字頭、粵語專用字等。網頁字型針對繁體中文用途，沒有收錄簡體中文、諺文等文字。
 
-為改善效能，字型採用了 [Unicode-range subsetting](https://web.dev/reduce-webfont-size/#unicode-range-subsetting) 技術，將每個字重的單一字型檔拆分成大約 140 個細小檔案（多數檔案小於 80KB，非常用字子集小於 200KB），並在 CSS 指明該檔案所涵蓋的字碼。瀏覽器只會在網頁有用到該字碼時才會載入相關字型檔。這樣做的好處是大大減低須下載字型檔案的大小。收字方式如下：
+為改善效能，字型採用了 [Unicode-range subsetting](https://web.dev/reduce-webfont-size/#unicode-range-subsetting) 技術，將每個字重的單一字型檔拆分成大約 140 個細小檔案，並在 CSS 指明該檔案所涵蓋的字碼。瀏覽器只會在網頁有用到該字碼時才會載入相關字型檔。這樣做的好處是大大減低須下載字型檔案的大小。收字方式如下：
 
 1. 先以 Google Fonts 服務中 [Noto Sans HK](https://fonts.google.com/specimen/Noto+Sans+HK) 的拆分方式為基礎。據知 Google Fonts 在日、韓兩種語言利用了 machine learning 產生 subset，務求在最小下載檔案數之下得到最多的常用字元。雖然未知繁體中文是否也是如此，但最終應該也會用上，所以決定先跟隨 Google Fonts 的 subsetting 方法。不過，Google Fonts 的繁體子集會包含一些不在 Big5/HKSCS 的簡化字，處理時會予以過濾。
 2. 本網頁字型會補上一些香港常用字符。
