@@ -1,3 +1,9 @@
+v2.041 (2021/05/27)
+====
+- Added single quotes characters (U+2018 ‘, U+2019 ’) to the webfont build.
+- Remapped the following characters in the Kangxi Radicals block (U+2F00 - U+2FDF) to the font's preferred form: U+2F10 ⼐, U+2F50 ⽐, U+2F78 ⽸, U+2FAC ⾬, U+2FBF ⾿, U+2FC5 ⿅, U+2FC9 ⿉, U+2FD2 ⿒.
+- All daily used characters should now adhere to the font's preferred form. Starting from v2.040, redesigned characters that are not frequently used will not be explicitly mentioned in the changelog (this file). Please consult `meta.json` for the redesigned character count of each release.
+
 v2.040 (2021/04/29)
 ====
 - Upstream version updated to Source Han Sans 2.004. Fixed instance names not showing correctly in variable OTF.
