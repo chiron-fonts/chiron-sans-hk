@@ -1,3 +1,7 @@
+v2.042 (2021/06/29)
+====
+- Maintenance release (updated and added some glyphs).
+
 v2.041 (2021/05/27)
 ====
 - Added single quotes characters (U+2018 ‘, U+2019 ’) to the webfont build.
