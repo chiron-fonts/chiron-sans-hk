@@ -1,3 +1,8 @@
+v2.043 (2021/08/07)
+====
+- Fixed the glyph width of 簝 (U+7C1D).
+- Updated and added some glyphs.
+
 v2.042 (2021/06/29)
 ====
 - Maintenance release (updated and added some glyphs).
