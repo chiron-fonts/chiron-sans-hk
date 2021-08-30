@@ -1,3 +1,8 @@
+v2.044 (2021/08/30)
+====
+- Fixed the outlines of the following glyphs: 莂 (U+8382), 蟉 (U+87C9), 鍃 (U+9343), 鏠 (U+93E0), 鑱 (U+9471), 饝 (U+995D), 䘵 (U+4635), 䱚 (U+4C5A), 哵 (U+54F5), 寥 (U+5BE5).
+- Remapped and redesigned >100 glyphs. These glyphs have a “大” or “禾” (e.g. 莫/奐; 央/矢/奏/癸/秦 included) at the bottom or bottom-right, with the last stroke rendered as a “Dot” (點). The “Pressed” (捺) form is preferred.
+
 v2.043 (2021/08/07)
 ====
 - Fixed the glyph width of 簝 (U+7C1D).
@@ -26,7 +31,6 @@ v2.035 (2021/04/15)
 - Redesigned the following 20 characters: 㔆㚬㶴㷇䓎䖅奿娛媁嫾岺撍栾焲熩爤豅𢲷𨥉𪊲.
 
 Remarks: There are a few known issues in the VF version of Source Han Sans v2.003 which also affects Chiron Sans HK VF. I decided to roll a new release that includes the VF variant because I believe the webfont VF configuration is a worthy update. It feels strange when a release only contains a WOFF2 VF but no desktop version, so a desktop OpenType/CFF2 variable font is also included anyway.
-
 
 v2.034 (2021/03/17)
 ====
