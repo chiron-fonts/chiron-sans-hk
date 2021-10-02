@@ -1,3 +1,7 @@
+v2.045 (2021/10/02)
+====
+- Various glyph updates and remaps.
+
 v2.044 (2021/08/30)
 ====
 - Fixed the outlines of the following glyphs: 莂 (U+8382), 蟉 (U+87C9), 鍃 (U+9343), 鏠 (U+93E0), 鑱 (U+9471), 饝 (U+995D), 䘵 (U+4635), 䱚 (U+4C5A), 哵 (U+54F5), 寥 (U+5BE5).
