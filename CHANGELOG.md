@@ -1,3 +1,8 @@
+v2.046 (2022/01/11)
+====
+- Redesigned the glyph of 辦 (U+8FA6).
+- Updated the glyph list in the palt and vpal instructions. The following characters (and their respective vertical forms, if available) will always retain their original width/height, no matter the features are activated or not: （）〔〕「」『』，。、！？．〈〉《》［］【】 (Fixes #24).
+
 v2.045 (2021/10/02)
 ====
 - Various glyph updates and remaps.
