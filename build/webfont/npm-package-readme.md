@@ -1,6 +1,10 @@
 Chiron Sans HK Webfont
 ======================
 
+## DEPRECATION NOTICE
+
+**This project is superseded by [Chiron Hei HK](https://github.com/chiron-fonts/chiron-hei-hk) and is no longer maintained. New users are highly recommended to start with [Chiron Hei HK](https://github.com/chiron-fonts/chiron-hei-hk) instead. For the details behind this move, check out the [Chiron Font website](https://chiron-fonts.github.io/technical-details/chiron-sans-fonts-differences/) (in Chinese only). **
+
 ## About
 
 This package contains the webfont version of [Chiron Sans HK (昭源黑體)](https://github.com/chiron-fonts/chiron-sans-hk) for using in websites.

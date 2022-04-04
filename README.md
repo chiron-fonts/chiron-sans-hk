@@ -1,6 +1,12 @@
 Chiron Sans HK (昭源黑體)
 =========================
 
+** ⚠️ Important Notice ⚠️ **
+
+This project is superseded by [Chiron Hei HK](https://github.com/chiron-fonts/chiron-hei-hk), and will no longer be maintained.
+
+---
+
  * [主網頁](https://chiron-fonts.github.io/sans/)（含中文簡介、詳細説明）
  * 或直接前往 [Releases](https://github.com/chiron-fonts/chiron-sans-hk/releases) 頁下載。
 
